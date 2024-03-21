@@ -1,0 +1,3066 @@
+<!DOCTYPE html>
+<!-- ✨ Built with Framer • https://www.framer.com/ -->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <!-- End of headStart -->
+        <meta name="viewport" content="width=device-width">
+        <title>Portfolio page</title>
+        <meta name="description" content="Created by Daniel">
+        <!-- Open Graph / Facebook -->
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="Portfolio page">
+        <meta property="og:description" content="Created by Daniel">
+        <meta property="og:image" content="https://framerusercontent.com/assets/f1uZk7jMC9tysS53VcG5EsGlJE.jpg">
+        <!-- Twitter -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Portfolio page">
+        <meta name="twitter:description" content="Created by Daniel">
+        <meta name="twitter:image" content="https://framerusercontent.com/assets/f1uZk7jMC9tysS53VcG5EsGlJE.jpg">
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="">
+        <link rel="modulepreload" fetchpriority="low" href="https://framerusercontent.com/sites/33dZi2iVhvS34VFcND7YCw/chunk-CD5JBNH4.mjs">
+        <link rel="modulepreload" fetchpriority="low" href="https://framerusercontent.com/sites/33dZi2iVhvS34VFcND7YCw/chunk-4MOKZUBR.mjs">
+        <link rel="modulepreload" fetchpriority="low" href="https://framerusercontent.com/sites/33dZi2iVhvS34VFcND7YCw/chunk-ELYU6EKT.mjs">
+        <link rel="modulepreload" fetchpriority="low" href="https://framerusercontent.com/sites/33dZi2iVhvS34VFcND7YCw/9i6LtnFN-6o0CxWW8oJDSZHqObF5ZYfar3qYJVc8JGc.QOA244C3.mjs">
+        <link rel="modulepreload" fetchpriority="low" href="https://framerusercontent.com/sites/33dZi2iVhvS34VFcND7YCw/chunk-T6Z73MCN.mjs">
+        <link rel="modulepreload" fetchpriority="low" href="https://framerusercontent.com/sites/33dZi2iVhvS34VFcND7YCw/chunk-42U43NKG.mjs">
+        <link rel="modulepreload" fetchpriority="low" href="https://framerusercontent.com/sites/33dZi2iVhvS34VFcND7YCw/chunk-VHPL7UFW.mjs">
+        <style data-framer-css-ssr-minified="" data-framer-components="framer-VOGci framer-oFzt9 framer-kBsmB framer-iszRP framer-qoIXB">
+            html,body,#main {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box
+            }
+
+            :root {
+                -webkit-font-smoothing: antialiased;
+                -moz-osx-font-smoothing: grayscale
+            }
+
+            * {
+                box-sizing: border-box;
+                -webkit-font-smoothing: inherit
+            }
+
+            h1,h2,h3,h4,h5,h6,p,figure {
+                margin: 0
+            }
+
+            body,input,textarea,select,button {
+                font-size: 12px;
+                font-family: sans-serif
+            }
+
+            #__framer-badge-container {
+                position: fixed;
+                bottom: 0;
+                padding: 20px;
+                width: 100%;
+                display: flex;
+                justify-content: right;
+                pointer-events: none;
+                z-index: 314159
+            }
+
+            .__framer-badge {
+                pointer-events: auto
+            }
+
+            @font-face {
+                font-family: Inter Tight;
+                font-style: normal;
+                font-weight: 600;
+                font-display: swap;
+                src: url(https://fonts.gstatic.com/s/intertight/v7/NGSnv5HMAFg6IuGlBNMjxJEL2VmU3NS7Z2mj0QiaVi5SkK8.woff2) format("woff2");
+                unicode-range: U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F
+            }
+
+            @font-face {
+                font-family: Inter Tight;
+                font-style: normal;
+                font-weight: 600;
+                font-display: swap;
+                src: url(https://fonts.gstatic.com/s/intertight/v7/NGSnv5HMAFg6IuGlBNMjxJEL2VmU3NS7Z2mj0QiaXy5SkK8.woff2) format("woff2");
+                unicode-range: U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116
+            }
+
+            @font-face {
+                font-family: Inter Tight;
+                font-style: normal;
+                font-weight: 600;
+                font-display: swap;
+                src: url(https://fonts.gstatic.com/s/intertight/v7/NGSnv5HMAFg6IuGlBNMjxJEL2VmU3NS7Z2mj0QiaVy5SkK8.woff2) format("woff2");
+                unicode-range: U+1F00-1FFF
+            }
+
+            @font-face {
+                font-family: Inter Tight;
+                font-style: normal;
+                font-weight: 600;
+                font-display: swap;
+                src: url(https://fonts.gstatic.com/s/intertight/v7/NGSnv5HMAFg6IuGlBNMjxJEL2VmU3NS7Z2mj0QiaWC5SkK8.woff2) format("woff2");
+                unicode-range: U+0370-0377,U+037A-037F,U+0384-038A,U+038C,U+038E-03A1,U+03A3-03FF
+            }
+
+            @font-face {
+                font-family: Inter Tight;
+                font-style: normal;
+                font-weight: 600;
+                font-display: swap;
+                src: url(https://fonts.gstatic.com/s/intertight/v7/NGSnv5HMAFg6IuGlBNMjxJEL2VmU3NS7Z2mj0QiaVC5SkK8.woff2) format("woff2");
+                unicode-range: U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB
+            }
+
+            @font-face {
+                font-family: Inter Tight;
+                font-style: normal;
+                font-weight: 600;
+                font-display: swap;
+                src: url(https://fonts.gstatic.com/s/intertight/v7/NGSnv5HMAFg6IuGlBNMjxJEL2VmU3NS7Z2mj0QiaVS5SkK8.woff2) format("woff2");
+                unicode-range: U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF
+            }
+
+            @font-face {
+                font-family: Inter Tight;
+                font-style: normal;
+                font-weight: 600;
+                font-display: swap;
+                src: url(https://fonts.gstatic.com/s/intertight/v7/NGSnv5HMAFg6IuGlBNMjxJEL2VmU3NS7Z2mj0QiaWy5S.woff2) format("woff2");
+                unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD
+            }
+
+            @font-face {
+                font-family: Sen;
+                font-style: normal;
+                font-weight: 400;
+                font-display: swap;
+                src: url(https://fonts.gstatic.com/s/sen/v9/6xKjdSxYI9_3kvWNEmo.woff2) format("woff2");
+                unicode-range: U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF
+            }
+
+            @font-face {
+                font-family: Sen;
+                font-style: normal;
+                font-weight: 400;
+                font-display: swap;
+                src: url(https://fonts.gstatic.com/s/sen/v9/6xKjdSxYI9_3nPWN.woff2) format("woff2");
+                unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD
+            }
+
+            @font-face {
+                font-family: Sen;
+                font-style: normal;
+                font-weight: 700;
+                font-display: swap;
+                src: url(https://fonts.gstatic.com/s/sen/v9/6xKjdSxYI9_3kvWNEmo.woff2) format("woff2");
+                unicode-range: U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF
+            }
+
+            @font-face {
+                font-family: Sen;
+                font-style: normal;
+                font-weight: 700;
+                font-display: swap;
+                src: url(https://fonts.gstatic.com/s/sen/v9/6xKjdSxYI9_3nPWN.woff2) format("woff2");
+                unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD
+            }
+
+            @font-face {
+                font-family: Sen;
+                font-style: normal;
+                font-weight: 800;
+                font-display: swap;
+                src: url(https://fonts.gstatic.com/s/sen/v9/6xKjdSxYI9_3kvWNEmo.woff2) format("woff2");
+                unicode-range: U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF
+            }
+
+            @font-face {
+                font-family: Sen;
+                font-style: normal;
+                font-weight: 800;
+                font-display: swap;
+                src: url(https://fonts.gstatic.com/s/sen/v9/6xKjdSxYI9_3nPWN.woff2) format("woff2");
+                unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD
+            }
+
+            @font-face {
+                font-family: Righteous;
+                font-style: normal;
+                font-weight: 400;
+                font-display: block;
+                src: url(https://fonts.gstatic.com/s/righteous/v17/1cXxaUPXBpj2rGoU7C9WhnGFucE.woff2) format("woff2");
+                unicode-range: U+0100-02AF,U+0304,U+0308,U+0329,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF
+            }
+
+            @font-face {
+                font-family: Righteous;
+                font-style: normal;
+                font-weight: 400;
+                font-display: block;
+                src: url(https://fonts.gstatic.com/s/righteous/v17/1cXxaUPXBpj2rGoU7C9WiHGF.woff2) format("woff2");
+                unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD
+            }
+
+            @font-face {
+                font-family: Inter;
+                src: url(https://app.framerstatic.com/Inter-Bold.cyrillic-ext-XOTVL7ZR.woff2);
+                font-display: swap;
+                font-style: normal;
+                font-weight: 700;
+                unicode-range: U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F
+            }
+
+            @font-face {
+                font-family: Inter;
+                src: url(https://app.framerstatic.com/Inter-Bold.cyrillic-6LOMBC2V.woff2);
+                font-display: swap;
+                font-style: normal;
+                font-weight: 700;
+                unicode-range: U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116
+            }
+
+            @font-face {
+                font-family: Inter;
+                src: url(https://app.framerstatic.com/Inter-Bold.greek-ext-WXWSJXLB.woff2);
+                font-display: swap;
+                font-style: normal;
+                font-weight: 700;
+                unicode-range: U+1F00-1FFF
+            }
+
+            @font-face {
+                font-family: Inter;
+                src: url(https://app.framerstatic.com/Inter-Bold.greek-YRST7ODZ.woff2);
+                font-display: swap;
+                font-style: normal;
+                font-weight: 700;
+                unicode-range: U+0370-03FF
+            }
+
+            @font-face {
+                font-family: Inter;
+                src: url(https://app.framerstatic.com/Inter-Bold.latin-ext-BASA5UL3.woff2);
+                font-display: swap;
+                font-style: normal;
+                font-weight: 700;
+                unicode-range: U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF
+            }
+
+            @font-face {
+                font-family: Inter;
+                src: url(https://app.framerstatic.com/Inter-Bold.latin-UCM45LQF.woff2);
+                font-display: swap;
+                font-style: normal;
+                font-weight: 700;
+                unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD
+            }
+
+            @font-face {
+                font-family: Inter;
+                src: url(https://app.framerstatic.com/Inter-Bold.vietnamese-OEVJMXEP.woff2);
+                font-display: swap;
+                font-style: normal;
+                font-weight: 700;
+                unicode-range: U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+1EA0-1EF9,U+20AB
+            }
+
+            @font-face {
+                font-family: Inter;
+                src: url(https://app.framerstatic.com/Inter-Black.cyrillic-ext-TU4ITVTR.woff2);
+                font-display: block;
+                font-style: normal;
+                font-weight: 900;
+                unicode-range: U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F
+            }
+
+            @font-face {
+                font-family: Inter;
+                src: url(https://app.framerstatic.com/Inter-Black.cyrillic-JX7CGTYD.woff2);
+                font-display: block;
+                font-style: normal;
+                font-weight: 900;
+                unicode-range: U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116
+            }
+
+            @font-face {
+                font-family: Inter;
+                src: url(https://app.framerstatic.com/Inter-Black.greek-ext-LS3GCBFI.woff2);
+                font-display: block;
+                font-style: normal;
+                font-weight: 900;
+                unicode-range: U+1F00-1FFF
+            }
+
+            @font-face {
+                font-family: Inter;
+                src: url(https://app.framerstatic.com/Inter-Black.greek-ZWCJHBP5.woff2);
+                font-display: block;
+                font-style: normal;
+                font-weight: 900;
+                unicode-range: U+0370-03FF
+            }
+
+            @font-face {
+                font-family: Inter;
+                src: url(https://app.framerstatic.com/Inter-Black.latin-ext-BZLEUMX6.woff2);
+                font-display: block;
+                font-style: normal;
+                font-weight: 900;
+                unicode-range: U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF
+            }
+
+            @font-face {
+                font-family: Inter;
+                src: url(https://app.framerstatic.com/Inter-Black.latin-TETRYDF7.woff2);
+                font-display: block;
+                font-style: normal;
+                font-weight: 900;
+                unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD
+            }
+
+            @font-face {
+                font-family: Inter;
+                src: url(https://app.framerstatic.com/Inter-Black.vietnamese-RXQCC3EJ.woff2);
+                font-display: block;
+                font-style: normal;
+                font-weight: 900;
+                unicode-range: U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+1EA0-1EF9,U+20AB
+            }
+
+            @font-face {
+                font-family: Inter;
+                src: url(https://app.framerstatic.com/Inter-Medium.cyrillic-ext-M4WHNGTS.woff2);
+                font-display: swap;
+                font-style: normal;
+                font-weight: 500;
+                unicode-range: U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F
+            }
+
+            @font-face {
+                font-family: Inter;
+                src: url(https://app.framerstatic.com/Inter-Medium.cyrillic-JVU2PANX.woff2);
+                font-display: swap;
+                font-style: normal;
+                font-weight: 500;
+                unicode-range: U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116
+            }
+
+            @font-face {
+                font-family: Inter;
+                src: url(https://app.framerstatic.com/Inter-Medium.greek-ext-4KCQBEIZ.woff2);
+                font-display: swap;
+                font-style: normal;
+                font-weight: 500;
+                unicode-range: U+1F00-1FFF
+            }
+
+            @font-face {
+                font-family: Inter;
+                src: url(https://app.framerstatic.com/Inter-Medium.greek-DPOQGN7L.woff2);
+                font-display: swap;
+                font-style: normal;
+                font-weight: 500;
+                unicode-range: U+0370-03FF
+            }
+
+            @font-face {
+                font-family: Inter;
+                src: url(https://app.framerstatic.com/Inter-Medium.latin-ext-J4DBSW7F.woff2);
+                font-display: swap;
+                font-style: normal;
+                font-weight: 500;
+                unicode-range: U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF
+            }
+
+            @font-face {
+                font-family: Inter;
+                src: url(https://app.framerstatic.com/Inter-Medium.latin-Y3IVPL46.woff2);
+                font-display: swap;
+                font-style: normal;
+                font-weight: 500;
+                unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD
+            }
+
+            @font-face {
+                font-family: Inter;
+                src: url(https://app.framerstatic.com/Inter-Medium.vietnamese-PJV76O4P.woff2);
+                font-display: swap;
+                font-style: normal;
+                font-weight: 500;
+                unicode-range: U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+1EA0-1EF9,U+20AB
+            }
+
+            @font-face {
+                font-family: Inter;
+                src: url(https://app.framerstatic.com/Inter-Regular.cyrillic-ext-CFTLRB35.woff2);
+                font-display: swap;
+                font-style: normal;
+                font-weight: 400;
+                unicode-range: U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F
+            }
+
+            @font-face {
+                font-family: Inter;
+                src: url(https://app.framerstatic.com/Inter-Regular.cyrillic-KKLZBALH.woff2);
+                font-display: swap;
+                font-style: normal;
+                font-weight: 400;
+                unicode-range: U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116
+            }
+
+            @font-face {
+                font-family: Inter;
+                src: url(https://app.framerstatic.com/Inter-Regular.greek-ext-ULEBLIFV.woff2);
+                font-display: swap;
+                font-style: normal;
+                font-weight: 400;
+                unicode-range: U+1F00-1FFF
+            }
+
+            @font-face {
+                font-family: Inter;
+                src: url(https://app.framerstatic.com/Inter-Regular.greek-IRHSNFQB.woff2);
+                font-display: swap;
+                font-style: normal;
+                font-weight: 400;
+                unicode-range: U+0370-03FF
+            }
+
+            @font-face {
+                font-family: Inter;
+                src: url(https://app.framerstatic.com/Inter-Regular.latin-ext-VZDUGU3Q.woff2);
+                font-display: swap;
+                font-style: normal;
+                font-weight: 400;
+                unicode-range: U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF
+            }
+
+            @font-face {
+                font-family: Inter;
+                src: url(https://app.framerstatic.com/Inter-Regular.latin-JLQMKCHE.woff2);
+                font-display: swap;
+                font-style: normal;
+                font-weight: 400;
+                unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD
+            }
+
+            @font-face {
+                font-family: Inter;
+                src: url(https://app.framerstatic.com/Inter-Regular.vietnamese-QK7VSWXK.woff2);
+                font-display: swap;
+                font-style: normal;
+                font-weight: 400;
+                unicode-range: U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+1EA0-1EF9,U+20AB
+            }
+
+            @font-face {
+                font-family: Sen Placeholder;
+                src: local("Arial");
+                ascent-override:87.2%;descent-override:24.48%;line-gap-override:0%;size-adjust:107.73%}
+
+            @font-face {
+                font-family: Inter Tight Placeholder;
+                src: local("Arial");
+                ascent-override:99.65%;descent-override:24.81%;line-gap-override:0%;size-adjust:97.21%}
+
+            @font-face {
+                font-family: Inter Placeholder;
+                src: local("Arial");
+                ascent-override:90%;descent-override:22.43%;line-gap-override:0%;size-adjust:107.64%}
+
+            [data-framer-component-type] {
+                position: absolute
+            }
+
+            [data-framer-component-type=Text] {
+                cursor: inherit
+            }
+
+            [data-framer-component-text-autosized] * {
+                white-space: pre
+            }
+
+            [data-framer-component-type=Text]>* {
+                text-align: var(--framer-text-alignment, start)
+            }
+
+            [data-framer-component-type=Text] span span,[data-framer-component-type=Text] p span,[data-framer-component-type=Text] h1 span,[data-framer-component-type=Text] h2 span,[data-framer-component-type=Text] h3 span,[data-framer-component-type=Text] h4 span,[data-framer-component-type=Text] h5 span,[data-framer-component-type=Text] h6 span {
+                display: block
+            }
+
+            [data-framer-component-type=Text] span span span,[data-framer-component-type=Text] p span span,[data-framer-component-type=Text] h1 span span,[data-framer-component-type=Text] h2 span span,[data-framer-component-type=Text] h3 span span,[data-framer-component-type=Text] h4 span span,[data-framer-component-type=Text] h5 span span,[data-framer-component-type=Text] h6 span span {
+                display: unset
+            }
+
+            [data-framer-component-type=Text] div div span,[data-framer-component-type=Text] a div span,[data-framer-component-type=Text] span span span,[data-framer-component-type=Text] p span span,[data-framer-component-type=Text] h1 span span,[data-framer-component-type=Text] h2 span span,[data-framer-component-type=Text] h3 span span,[data-framer-component-type=Text] h4 span span,[data-framer-component-type=Text] h5 span span,[data-framer-component-type=Text] h6 span span,[data-framer-component-type=Text] a {
+                font-family: var(--font-family);
+                font-style: var(--font-style);
+                font-weight: min(calc(var(--framer-font-weight-increase, 0) + var(--font-weight, 400)),900);
+                color: var(--text-color);
+                letter-spacing: var(--letter-spacing);
+                font-size: var(--font-size);
+                text-transform: var(--text-transform);
+                text-decoration: var(--text-decoration);
+                line-height: var(--line-height)
+            }
+
+            [data-framer-component-type=Text] div div span,[data-framer-component-type=Text] a div span,[data-framer-component-type=Text] span span span,[data-framer-component-type=Text] p span span,[data-framer-component-type=Text] h1 span span,[data-framer-component-type=Text] h2 span span,[data-framer-component-type=Text] h3 span span,[data-framer-component-type=Text] h4 span span,[data-framer-component-type=Text] h5 span span,[data-framer-component-type=Text] h6 span span,[data-framer-component-type=Text] a {
+                --font-family: var(--framer-font-family);
+                --font-style: var(--framer-font-style);
+                --font-weight: var(--framer-font-weight);
+                --text-color: var(--framer-text-color);
+                --letter-spacing: var(--framer-letter-spacing);
+                --font-size: var(--framer-font-size);
+                --text-transform: var(--framer-text-transform);
+                --text-decoration: var(--framer-text-decoration);
+                --line-height: var(--framer-line-height)
+            }
+
+            [data-framer-component-type=Text] a,[data-framer-component-type=Text] a div span,[data-framer-component-type=Text] a span span span,[data-framer-component-type=Text] a p span span,[data-framer-component-type=Text] a h1 span span,[data-framer-component-type=Text] a h2 span span,[data-framer-component-type=Text] a h3 span span,[data-framer-component-type=Text] a h4 span span,[data-framer-component-type=Text] a h5 span span,[data-framer-component-type=Text] a h6 span span {
+                --font-family: var(--framer-link-font-family, var(--framer-font-family));
+                --font-style: var(--framer-link-font-style, var(--framer-font-style));
+                --font-weight: var(--framer-link-font-weight, var(--framer-font-weight));
+                --text-color: var(--framer-link-text-color, var(--framer-text-color));
+                --font-size: var(--framer-link-font-size, var(--framer-font-size));
+                --text-transform: var(--framer-link-text-transform, var(--framer-text-transform));
+                --text-decoration: var(--framer-link-text-decoration, var(--framer-text-decoration))
+            }
+
+            [data-framer-component-type=Text] a:hover,[data-framer-component-type=Text] a div span:hover,[data-framer-component-type=Text] a span span span:hover,[data-framer-component-type=Text] a p span span:hover,[data-framer-component-type=Text] a h1 span span:hover,[data-framer-component-type=Text] a h2 span span:hover,[data-framer-component-type=Text] a h3 span span:hover,[data-framer-component-type=Text] a h4 span span:hover,[data-framer-component-type=Text] a h5 span span:hover,[data-framer-component-type=Text] a h6 span span:hover {
+                --font-family: var(--framer-link-hover-font-family, var(--framer-link-font-family, var(--framer-font-family)));
+                --font-style: var(--framer-link-hover-font-style, var(--framer-link-font-style, var(--framer-font-style)));
+                --font-weight: var(--framer-link-hover-font-weight, var(--framer-link-font-weight, var(--framer-font-weight)));
+                --text-color: var(--framer-link-hover-text-color, var(--framer-link-text-color, var(--framer-text-color)));
+                --font-size: var(--framer-link-hover-font-size, var(--framer-link-font-size, var(--framer-font-size)));
+                --text-transform: var(--framer-link-hover-text-transform, var(--framer-link-text-transform, var(--framer-text-transform)));
+                --text-decoration: var(--framer-link-hover-text-decoration, var(--framer-link-text-decoration, var(--framer-text-decoration)))
+            }
+
+            [data-framer-component-type=Text].isCurrent a,[data-framer-component-type=Text].isCurrent a div span,[data-framer-component-type=Text].isCurrent a span span span,[data-framer-component-type=Text].isCurrent a p span span,[data-framer-component-type=Text].isCurrent a h1 span span,[data-framer-component-type=Text].isCurrent a h2 span span,[data-framer-component-type=Text].isCurrent a h3 span span,[data-framer-component-type=Text].isCurrent a h4 span span,[data-framer-component-type=Text].isCurrent a h5 span span,[data-framer-component-type=Text].isCurrent a h6 span span {
+                --font-family: var(--framer-link-current-font-family, var(--framer-link-font-family, var(--framer-font-family)));
+                --font-style: var(--framer-link-current-font-style, var(--framer-link-font-style, var(--framer-font-style)));
+                --font-weight: var(--framer-link-current-font-weight, var(--framer-link-font-weight, var(--framer-font-weight)));
+                --text-color: var(--framer-link-current-text-color, var(--framer-link-text-color, var(--framer-text-color)));
+                --font-size: var(--framer-link-current-font-size, var(--framer-link-font-size, var(--framer-font-size)));
+                --text-transform: var(--framer-link-current-text-transform, var(--framer-link-text-transform, var(--framer-text-transform)));
+                --text-decoration: var(--framer-link-current-text-decoration, var(--framer-link-text-decoration, var(--framer-text-decoration)))
+            }
+
+            p.framer-text,div.framer-text,h1.framer-text,h2.framer-text,h3.framer-text,h4.framer-text,h5.framer-text,h6.framer-text,ol.framer-text,ul.framer-text {
+                margin: 0;
+                padding: 0
+            }
+
+            p.framer-text,div.framer-text,h1.framer-text,h2.framer-text,h3.framer-text,h4.framer-text,h5.framer-text,h6.framer-text,li.framer-text,ol.framer-text,ul.framer-text,span.framer-text:not([data-text-fill]) {
+                font-family: var(--framer-font-family, Inter, Inter Placeholder, sans-serif);
+                font-style: var(--framer-font-style, normal);
+                font-weight: var(--framer-font-weight, 400);
+                color: var(--framer-text-color, #000);
+                font-size: calc(var(--framer-font-size, 16px) * var(--framer-font-size-scale, 1));
+                letter-spacing: var(--framer-letter-spacing, 0);
+                text-transform: var(--framer-text-transform, none);
+                text-decoration: var(--framer-text-decoration, none);
+                line-height: var(--framer-line-height, 1.2em);
+                text-align: var(--framer-text-alignment, start)
+            }
+
+            .framer-fit-text .framer-text {
+                white-space: nowrap
+            }
+
+            strong.framer-text {
+                font-family: var(--framer-font-family-bold);
+                font-style: var(--framer-font-style-bold);
+                font-weight: var(--framer-font-weight-bold, bolder)
+            }
+
+            em.framer-text {
+                font-family: var(--framer-font-family-italic);
+                font-style: var(--framer-font-style-italic, italic);
+                font-weight: var(--framer-font-weight-italic)
+            }
+
+            em.framer-text>strong.framer-text {
+                font-family: var(--framer-font-family-bold-italic);
+                font-style: var(--framer-font-style-bold-italic, italic);
+                font-weight: var(--framer-font-weight-bold-italic, bolder)
+            }
+
+            p.framer-text:not(:first-child),div.framer-text:not(:first-child),h1.framer-text:not(:first-child),h2.framer-text:not(:first-child),h3.framer-text:not(:first-child),h4.framer-text:not(:first-child),h5.framer-text:not(:first-child),h6.framer-text:not(:first-child),ol.framer-text:not(:first-child),ul.framer-text:not(:first-child),.framer-image.framer-text:not(:first-child) {
+                margin-top: var(--framer-paragraph-spacing, 0)
+            }
+
+            li.framer-text>ul.framer-text:nth-child(2),li.framer-text>ol.framer-text:nth-child(2) {
+                margin-top: 0
+            }
+
+            .framer-text[data-text-fill] {
+                display: inline-block;
+                background-clip: text;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                padding: max(0em,calc(calc(1.3em - var(--framer-line-height, 1.3em)) / 2));
+                margin: min(0em,calc(calc(1.3em - var(--framer-line-height, 1.3em)) / -2))
+            }
+
+            code.framer-text,code.framer-text span.framer-text:not([data-text-fill]) {
+                font-family: var(--framer-code-font-family, var(--framer-font-family, Inter, Inter Placeholder, sans-serif));
+                font-style: var(--framer-code-font-style, var(--framer-font-style, normal));
+                font-weight: var(--framer-code-font-weight, var(--framer-font-weight, 400));
+                color: var(--framer-code-text-color, var(--framer-text-color, #000));
+                font-size: calc(var(--framer-font-size, 16px) * var(--framer-font-size-scale, 1));
+                letter-spacing: var(--framer-letter-spacing, 0);
+                line-height: var(--framer-line-height, 1.2em)
+            }
+
+            a.framer-text,a.framer-text span.framer-text:not([data-text-fill]) {
+                font-family: var(--framer-link-font-family, var(--framer-font-family, Inter, Inter Placeholder, sans-serif));
+                font-style: var(--framer-link-font-style, var(--framer-font-style, normal));
+                font-weight: var(--framer-link-font-weight, var(--framer-font-weight, 400));
+                color: var(--framer-link-text-color, var(--framer-text-color, #000));
+                font-size: calc(var(--framer-link-font-size, var(--framer-font-size, 16px)) * var(--framer-font-size-scale, 1));
+                text-transform: var(--framer-link-text-transform, var(--framer-text-transform, none));
+                text-decoration: var(--framer-link-text-decoration, var(--framer-text-decoration, none));
+                cursor: var(--framer-custom-cursors, pointer)
+            }
+
+            code.framer-text a.framer-text,code.framer-text a.framer-text span.framer-text:not([data-text-fill]) {
+                font-family: var(--framer-code-font-family, var(--framer-font-family, Inter, Inter Placeholder, sans-serif));
+                font-style: var(--framer-code-font-style, var(--framer-font-style, normal));
+                font-weight: var(--framer-code-font-weight, var(--framer-font-weight, 400));
+                color: var(--framer-link-text-color, var(--framer-code-text-color, var(--framer-text-color, #000)));
+                font-size: calc(var(--framer-link-font-size, var(--framer-font-size, 16px)) * var(--framer-font-size-scale, 1))
+            }
+
+            a.framer-text:hover,a.framer-text:hover span.framer-text:not([data-text-fill]) {
+                font-family: var(--framer-link-hover-font-family, var(--framer-link-font-family, var(--framer-font-family, Inter, Inter Placeholder, sans-serif)));
+                font-style: var(--framer-link-hover-font-style, var(--framer-link-font-style, var(--framer-font-style, normal)));
+                font-weight: var(--framer-link-hover-font-weight, var(--framer-link-font-weight, var(--framer-font-weight, 400)));
+                color: var(--framer-link-hover-text-color, var(--framer-link-text-color, var(--framer-text-color, #000)));
+                font-size: calc(var(--framer-link-hover-font-size, var(--framer-link-font-size, var(--framer-font-size, 16px))) * var(--framer-font-size-scale, 1));
+                text-transform: var(--framer-link-hover-text-transform, var(--framer-link-text-transform, var(--framer-text-transform, none)));
+                text-decoration: var(--framer-link-hover-text-decoration, var(--framer-link-text-decoration, var(--framer-text-decoration, none)))
+            }
+
+            code.framer-text a.framer-text:hover,code.framer-text a.framer-text:hover span.framer-text:not([data-text-fill]) {
+                font-family: var(--framer-code-font-family, var(--framer-font-family, Inter, Inter Placeholder, sans-serif));
+                font-style: var(--framer-code-font-style, var(--framer-font-style, normal));
+                font-weight: var(--framer-code-font-weight, var(--framer-font-weight, 400));
+                color: var(--framer-link-hover-text-color, var(--framer-link-text-color, var(--framer-code-text-color, var(--framer-text-color, #000))));
+                font-size: calc(var(--framer-link-hover-font-size, var(--framer-link-font-size, var(--framer-font-size, 16px))) * var(--framer-font-size-scale, 1))
+            }
+
+            a.framer-text[data-framer-page-link-current],a.framer-text[data-framer-page-link-current] span.framer-text:not([data-text-fill]) {
+                font-family: var(--framer-link-current-font-family, var(--framer-link-font-family, var(--framer-font-family, Inter, Inter Placeholder, sans-serif)));
+                font-style: var(--framer-link-current-font-style, var(--framer-link-font-style, var(--framer-font-style, normal)));
+                font-weight: var(--framer-link-current-font-weight, var(--framer-link-font-weight, var(--framer-font-weight, 400)));
+                color: var(--framer-link-current-text-color, var(--framer-link-text-color, var(--framer-text-color, #000)));
+                font-size: calc(var(--framer-link-current-font-size, var(--framer-link-font-size, var(--framer-font-size, 16px))) * var(--framer-font-size-scale, 1));
+                text-transform: var(--framer-link-current-text-transform, var(--framer-link-text-transform, var(--framer-text-transform, none)));
+                text-decoration: var(--framer-link-current-text-decoration, var(--framer-link-text-decoration, var(--framer-text-decoration, none)))
+            }
+
+            code.framer-text a.framer-text[data-framer-page-link-current],code.framer-text a.framer-text[data-framer-page-link-current] span.framer-text:not([data-text-fill]) {
+                font-family: var(--framer-code-font-family, var(--framer-font-family, Inter, Inter Placeholder, sans-serif));
+                font-style: var(--framer-code-font-style, var(--framer-font-style, normal));
+                font-weight: var(--framer-code-font-weight, var(--framer-font-weight, 400));
+                color: var(--framer-link-current-text-color, var(--framer-link-text-color, var(--framer-code-text-color, var(--framer-text-color, #000))));
+                font-size: calc(var(--framer-link-current-font-size, var(--framer-link-font-size, var(--framer-font-size, 16px))) * var(--framer-font-size-scale, 1))
+            }
+
+            a.framer-text[data-framer-page-link-current]:hover,a.framer-text[data-framer-page-link-current]:hover span.framer-text:not([data-text-fill]) {
+                font-family: var(--framer-link-hover-font-family, var(--framer-link-current-font-family, var(--framer-link-font-family, var(--framer-font-family, Inter, Inter Placeholder, sans-serif))));
+                font-style: var(--framer-link-hover-font-style, var(--framer-link-current-font-style, var(--framer-link-font-style, var(--framer-font-style, normal))));
+                font-weight: var(--framer-link-hover-font-weight, var(--framer-link-current-font-weight, var(--framer-link-font-weight, var(--framer-font-weight, 400))));
+                color: var(--framer-link-hover-text-color, var(--framer-link-current-text-color, var(--framer-link-text-color, var(--framer-text-color, #000))));
+                font-size: calc(var(--framer-link-hover-font-size, var(--framer-link-current-font-size, var(--framer-link-font-size, var(--framer-font-size, 16px)))) * var(--framer-font-size-scale, 1));
+                text-transform: var(--framer-link-hover-text-transform, var(--framer-link-current-text-transform, var(--framer-link-text-transform, var(--framer-text-transform, none))));
+                text-decoration: var(--framer-link-hover-text-decoration, var(--framer-link-current-text-decoration, var(--framer-link-text-decoration, var(--framer-text-decoration, none))))
+            }
+
+            code.framer-text a.framer-text[data-framer-page-link-current]:hover,code.framer-text a.framer-text[data-framer-page-link-current]:hover span.framer-text:not([data-text-fill]) {
+                font-family: var(--framer-code-font-family, var(--framer-font-family, Inter, Inter Placeholder, sans-serif));
+                font-style: var(--framer-code-font-style, var(--framer-font-style, normal));
+                font-weight: var(--framer-code-font-weight, var(--framer-font-weight, 400));
+                color: var(--framer-link-hover-text-color, var(--framer-link-current-text-color, var(--framer-link-text-color, var(--framer-code-text-color, var(--framer-text-color, #000)))));
+                font-size: calc(var(--framer-link-hover-font-size, var(--framer-link-current-font-size, var(--framer-link-font-size, var(--framer-font-size, 16px)))) * var(--framer-font-size-scale, 1))
+            }
+
+            .framer-image.framer-text {
+                display: block;
+                max-width: 100%;
+                height: auto
+            }
+
+            .text-styles-preset-reset.framer-text {
+                --framer-font-family: Inter, Inter Placeholder, sans-serif;
+                --framer-font-style: normal;
+                --framer-font-weight: 500;
+                --framer-text-color: #000;
+                --framer-font-size: 16px;
+                --framer-letter-spacing: 0;
+                --framer-text-transform: none;
+                --framer-text-decoration: none;
+                --framer-line-height: 1.2em;
+                --framer-text-alignment: start
+            }
+
+            ol.framer-text {
+                --list-style-type: decimal
+            }
+
+            ul.framer-text,ol.framer-text {
+                display: table;
+                width: 100%
+            }
+
+            li.framer-text {
+                display: table-row;
+                counter-increment: list-item;
+                list-style: none
+            }
+
+            ol.framer-text>li.framer-text:before {
+                display: table-cell;
+                width: 2.25ch;
+                box-sizing: border-box;
+                padding-inline-end:.75ch;content: counter(list-item,var(--list-style-type)) ".";
+                white-space: nowrap
+            }
+
+            ul.framer-text>li.framer-text:before {
+                display: table-cell;
+                width: 2.25ch;
+                box-sizing: border-box;
+                padding-inline-end:.75ch;content: "\2022"
+            }
+
+            .framer-text-module[style*=aspect-ratio]>:first-child {
+                width: 100%
+            }
+
+            @supports not (aspect-ratio: 1) {
+                .framer-text-module[style*=aspect-ratio] {
+                    position:relative
+                }
+            }
+
+            @supports not (aspect-ratio: 1) {
+                .framer-text-module[style*=aspect-ratio]:before {
+                    content:"";
+                    display: block;
+                    padding-bottom: calc(100% / calc(var(--aspect-ratio)))
+                }
+            }
+
+            @supports not (aspect-ratio: 1) {
+                .framer-text-module[style*=aspect-ratio]>:first-child {
+                    position:absolute;
+                    top: 0;
+                    left: 0;
+                    height: 100%
+                }
+            }
+
+            [data-framer-component-type=DeprecatedRichText] {
+                cursor: inherit
+            }
+
+            [data-framer-component-type=DeprecatedRichText] .text-styles-preset-reset {
+                --framer-font-family: Inter, Inter Placeholder, sans-serif;
+                --framer-font-style: normal;
+                --framer-font-weight: 500;
+                --framer-text-color: #000;
+                --framer-font-size: 16px;
+                --framer-letter-spacing: 0;
+                --framer-text-transform: none;
+                --framer-text-decoration: none;
+                --framer-line-height: 1.2em;
+                --framer-text-alignment: start
+            }
+
+            [data-framer-component-type=DeprecatedRichText] p,[data-framer-component-type=DeprecatedRichText] div,[data-framer-component-type=DeprecatedRichText] h1,[data-framer-component-type=DeprecatedRichText] h2,[data-framer-component-type=DeprecatedRichText] h3,[data-framer-component-type=DeprecatedRichText] h4,[data-framer-component-type=DeprecatedRichText] h5,[data-framer-component-type=DeprecatedRichText] h6 {
+                margin: 0;
+                padding: 0
+            }
+
+            [data-framer-component-type=DeprecatedRichText] p,[data-framer-component-type=DeprecatedRichText] div,[data-framer-component-type=DeprecatedRichText] h1,[data-framer-component-type=DeprecatedRichText] h2,[data-framer-component-type=DeprecatedRichText] h3,[data-framer-component-type=DeprecatedRichText] h4,[data-framer-component-type=DeprecatedRichText] h5,[data-framer-component-type=DeprecatedRichText] h6,[data-framer-component-type=DeprecatedRichText] li,[data-framer-component-type=DeprecatedRichText] ol,[data-framer-component-type=DeprecatedRichText] ul,[data-framer-component-type=DeprecatedRichText] span:not([data-text-fill]) {
+                font-family: var(--framer-font-family, Inter, Inter Placeholder, sans-serif);
+                font-style: var(--framer-font-style, normal);
+                font-weight: var(--framer-font-weight, 400);
+                color: var(--framer-text-color, #000);
+                font-size: var(--framer-font-size, 16px);
+                letter-spacing: var(--framer-letter-spacing, 0);
+                text-transform: var(--framer-text-transform, none);
+                text-decoration: var(--framer-text-decoration, none);
+                line-height: var(--framer-line-height, 1.2em);
+                text-align: var(--framer-text-alignment, start)
+            }
+
+            [data-framer-component-type=DeprecatedRichText] p:not(:first-child),[data-framer-component-type=DeprecatedRichText] div:not(:first-child),[data-framer-component-type=DeprecatedRichText] h1:not(:first-child),[data-framer-component-type=DeprecatedRichText] h2:not(:first-child),[data-framer-component-type=DeprecatedRichText] h3:not(:first-child),[data-framer-component-type=DeprecatedRichText] h4:not(:first-child),[data-framer-component-type=DeprecatedRichText] h5:not(:first-child),[data-framer-component-type=DeprecatedRichText] h6:not(:first-child),[data-framer-component-type=DeprecatedRichText] ol:not(:first-child),[data-framer-component-type=DeprecatedRichText] ul:not(:first-child),[data-framer-component-type=DeprecatedRichText] .framer-image:not(:first-child) {
+                margin-top: var(--framer-paragraph-spacing, 0)
+            }
+
+            [data-framer-component-type=DeprecatedRichText] span[data-text-fill] {
+                display: inline-block;
+                background-clip: text;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent
+            }
+
+            [data-framer-component-type=DeprecatedRichText] a,[data-framer-component-type=DeprecatedRichText] a span:not([data-text-fill]) {
+                font-family: var(--framer-link-font-family, var(--framer-font-family, Inter, Inter Placeholder, sans-serif));
+                font-style: var(--framer-link-font-style, var(--framer-font-style, normal));
+                font-weight: var(--framer-link-font-weight, var(--framer-font-weight, 400));
+                color: var(--framer-link-text-color, var(--framer-text-color, #000));
+                font-size: var(--framer-link-font-size, var(--framer-font-size, 16px));
+                text-transform: var(--framer-link-text-transform, var(--framer-text-transform, none));
+                text-decoration: var(--framer-link-text-decoration, var(--framer-text-decoration, none))
+            }
+
+            [data-framer-component-type=DeprecatedRichText] a:hover,[data-framer-component-type=DeprecatedRichText] a:hover span:not([data-text-fill]) {
+                font-family: var(--framer-link-hover-font-family, var(--framer-link-font-family, var(--framer-font-family, Inter, Inter Placeholder, sans-serif)));
+                font-style: var(--framer-link-hover-font-style, var(--framer-link-font-style, var(--framer-font-style, normal)));
+                font-weight: var(--framer-link-hover-font-weight, var(--framer-link-font-weight, var(--framer-font-weight, 400)));
+                color: var(--framer-link-hover-text-color, var(--framer-link-text-color, var(--framer-text-color, #000)));
+                font-size: var(--framer-link-hover-font-size, var(--framer-link-font-size, var(--framer-font-size, 16px)));
+                text-transform: var(--framer-link-hover-text-transform, var(--framer-link-text-transform, var(--framer-text-transform, none)));
+                text-decoration: var(--framer-link-hover-text-decoration, var(--framer-link-text-decoration, var(--framer-text-decoration, none)))
+            }
+
+            a[data-framer-page-link-current],a[data-framer-page-link-current] span:not([data-text-fill]) {
+                font-family: var(--framer-link-current-font-family, var(--framer-link-font-family, var(--framer-font-family, Inter, Inter Placeholder, sans-serif)));
+                font-style: var(--framer-link-current-font-style, var(--framer-link-font-style, var(--framer-font-style, normal)));
+                font-weight: var(--framer-link-current-font-weight, var(--framer-link-font-weight, var(--framer-font-weight, 400)));
+                color: var(--framer-link-current-text-color, var(--framer-link-text-color, var(--framer-text-color, #000)));
+                font-size: var(--framer-link-current-font-size, var(--framer-link-font-size, var(--framer-font-size, 16px)));
+                text-transform: var(--framer-link-current-text-transform, var(--framer-link-text-transform, var(--framer-text-transform, none)));
+                text-decoration: var(--framer-link-current-text-decoration, var(--framer-link-text-decoration, var(--framer-text-decoration, none)))
+            }
+
+            a[data-framer-page-link-current]:hover,a[data-framer-page-link-current]:hover span:not([data-text-fill]) {
+                font-family: var(--framer-link-hover-font-family, var(--framer-link-current-font-family, var(--framer-link-font-family, var(--framer-font-family, Inter, Inter Placeholder, sans-serif))));
+                font-style: var(--framer-link-hover-font-style, var(--framer-link-current-font-style, var(--framer-link-font-style, var(--framer-font-style, normal))));
+                font-weight: var(--framer-link-hover-font-weight, var(--framer-link-current-font-weight, var(--framer-link-font-weight, var(--framer-font-weight, 400))));
+                color: var(--framer-link-hover-text-color, var(--framer-link-current-text-color, var(--framer-link-text-color, var(--framer-text-color, #000))));
+                font-size: var(--framer-link-hover-font-size, var(--framer-link-current-font-size, var(--framer-link-font-size, var(--framer-font-size, 16px))));
+                text-transform: var(--framer-link-hover-text-transform, var(--framer-link-current-text-transform, var(--framer-link-text-transform, var(--framer-text-transform, none))));
+                text-decoration: var(--framer-link-hover-text-decoration, var(--framer-link-current-text-decoration, var(--framer-link-text-decoration, var(--framer-text-decoration, none))))
+            }
+
+            [data-framer-component-type=DeprecatedRichText] strong {
+                font-weight: bolder
+            }
+
+            [data-framer-component-type=DeprecatedRichText] em {
+                font-style: italic
+            }
+
+            [data-framer-component-type=DeprecatedRichText] .framer-image {
+                display: block;
+                max-width: 100%;
+                height: auto
+            }
+
+            [data-framer-component-type=DeprecatedRichText] ul,[data-framer-component-type=DeprecatedRichText] ol {
+                display: table;
+                width: 100%;
+                padding-left: 0;
+                margin: 0
+            }
+
+            [data-framer-component-type=DeprecatedRichText] li {
+                display: table-row;
+                counter-increment: list-item;
+                list-style: none
+            }
+
+            [data-framer-component-type=DeprecatedRichText] ol>li:before {
+                display: table-cell;
+                width: 2.25ch;
+                box-sizing: border-box;
+                padding-right: .75ch;
+                content: counter(list-item) ".";
+                white-space: nowrap
+            }
+
+            [data-framer-component-type=DeprecatedRichText] ul>li:before {
+                display: table-cell;
+                width: 2.25ch;
+                box-sizing: border-box;
+                padding-right: .75ch;
+                content: "\2022"
+            }
+
+            :not([data-framer-generated])>[data-framer-stack-content-wrapper]>*,:not([data-framer-generated])>[data-framer-stack-content-wrapper]>[data-framer-component-type],:not([data-framer-generated])>[data-framer-stack-content-wrapper]>[data-framer-legacy-stack-gap-enabled]>*,:not([data-framer-generated])>[data-framer-stack-content-wrapper]>[data-framer-legacy-stack-gap-enabled]>[data-framer-component-type] {
+                position: relative
+            }
+
+            .flexbox-gap-not-supported [data-framer-legacy-stack-gap-enabled=true]>*,[data-framer-legacy-stack-gap-enabled=true][data-framer-stack-flexbox-gap=false] {
+                margin-top: calc(var(--stack-gap-y) / 2);
+                margin-bottom: calc(var(--stack-gap-y) / 2);
+                margin-right: calc(var(--stack-gap-x) / 2);
+                margin-left: calc(var(--stack-gap-x) / 2)
+            }
+
+            [data-framer-stack-content-wrapper][data-framer-stack-gap-enabled=true] {
+                row-gap: var(--stack-native-row-gap);
+                column-gap: var(--stack-native-column-gap)
+            }
+
+            .flexbox-gap-not-supported [data-framer-stack-content-wrapper][data-framer-stack-gap-enabled=true] {
+                row-gap: unset;
+                column-gap: unset
+            }
+
+            .flexbox-gap-not-supported [data-framer-stack-direction-reverse=false] [data-framer-legacy-stack-gap-enabled=true]>*:first-child,[data-framer-stack-direction-reverse=false] [data-framer-legacy-stack-gap-enabled=true][data-framer-stack-flexbox-gap=false]>*:first-child,.flexbox-gap-not-supported [data-framer-stack-direction-reverse=true] [data-framer-legacy-stack-gap-enabled=true]>*:last-child,[data-framer-stack-direction-reverse=true] [data-framer-legacy-stack-gap-enabled=true][data-framer-stack-flexbox-gap=false]>*:last-child {
+                margin-top: 0;
+                margin-left: 0
+            }
+
+            .flexbox-gap-not-supported [data-framer-stack-direction-reverse=false] [data-framer-legacy-stack-gap-enabled=true]>*:last-child,[data-framer-stack-direction-reverse=false] [data-framer-legacy-stack-gap-enabled=true][data-framer-stack-flexbox-gap=false]>*:last-child,.flexbox-gap-not-supported [data-framer-stack-direction-reverse=true] [data-framer-legacy-stack-gap-enabled=true]>*:first-child,[data-framer-stack-direction-reverse=true] [data-framer-legacy-stack-gap-enabled=true][data-framer-stack-flexbox-gap=false]>*:first-child {
+                margin-right: 0;
+                margin-bottom: 0
+            }
+
+            NavigationContainer [data-framer-component-type=NavigationContainer]>*,[data-framer-component-type=NavigationContainer]>[data-framer-component-type] {
+                position: relative
+            }
+
+            [data-framer-component-type=Scroll]::-webkit-scrollbar {
+                display: none
+            }
+
+            [data-framer-component-type=ScrollContentWrapper]>* {
+                position: relative
+            }
+
+            [data-framer-component-type=NativeScroll] {
+                -webkit-overflow-scrolling: touch
+            }
+
+            [data-framer-component-type=NativeScroll]>* {
+                position: relative
+            }
+
+            [data-framer-component-type=NativeScroll].direction-both {
+                overflow-x: scroll;
+                overflow-y: scroll
+            }
+
+            [data-framer-component-type=NativeScroll].direction-vertical {
+                overflow-x: hidden;
+                overflow-y: scroll
+            }
+
+            [data-framer-component-type=NativeScroll].direction-horizontal {
+                overflow-x: scroll;
+                overflow-y: hidden
+            }
+
+            [data-framer-component-type=NativeScroll].direction-vertical>* {
+                width: 100%!important
+            }
+
+            [data-framer-component-type=NativeScroll].direction-horizontal>* {
+                height: 100%!important
+            }
+
+            [data-framer-component-type=NativeScroll].scrollbar-hidden::-webkit-scrollbar {
+                display: none
+            }
+
+            [data-framer-component-type=PageContentWrapper]>*,[data-framer-component-type=PageContentWrapper]>[data-framer-component-type] {
+                position: relative
+            }
+
+            [data-framer-component-type=DeviceComponent].no-device>* {
+                width: 100%!important;
+                height: 100%!important
+            }
+
+            [data-is-present=false],[data-is-present=false] * {
+                pointer-events: none!important
+            }
+
+            [data-framer-cursor=pointer] {
+                cursor: pointer
+            }
+
+            [data-framer-cursor=grab] {
+                cursor: grab
+            }
+
+            [data-framer-cursor=grab]:active {
+                cursor: grabbing
+            }
+
+            [data-framer-component-type=Frame] *,[data-framer-component-type=Stack] * {
+                pointer-events: auto
+            }
+
+            [data-framer-generated] * {
+                pointer-events: unset
+            }
+
+            .svgContainer svg {
+                display: block
+            }
+
+            [data-reset=button] {
+                border-width: 0;
+                padding: 0;
+                background: none
+            }
+
+            [data-hide-scrollbars=true]::-webkit-scrollbar {
+                width: 0px;
+                height: 0px
+            }
+
+            [data-hide-scrollbars=true]::-webkit-scrollbar-thumb {
+                background: transparent
+            }
+
+            .framer-cursor-none,.framer-cursor-none * {
+                cursor: none!important
+            }
+
+            .framer-pointer-events-none,.framer-pointer-events-none * {
+                pointer-events: none!important
+            }
+
+            .framer-body-Z661wZyuo-framer-VOGci {
+                background: rgb(10,25,47)
+            }
+
+            .framer-VOGci.framer-1lx203q,.framer-VOGci .framer-1lx203q {
+                display: block
+            }
+
+            .framer-VOGci.framer-kcbtrq {
+                align-content: center;
+                align-items: center;
+                background-color: #0a192f;
+                display: flex;
+                flex-direction: column;
+                flex-wrap: nowrap;
+                gap: 0px;
+                height: min-content;
+                justify-content: flex-start;
+                overflow: hidden;
+                padding: 0;
+                position: relative;
+                width: 1200px
+            }
+
+            .framer-VOGci .framer-1aw8s6l-container {
+                flex: none;
+                height: auto;
+                max-width: 1440px;
+                position: relative;
+                width: 100%
+            }
+
+            .framer-VOGci .framer-xrw3kb {
+                -webkit-user-select: none;
+                align-content: flex-start;
+                align-items: flex-start;
+                display: flex;
+                flex: none;
+                flex-direction: column;
+                flex-wrap: nowrap;
+                gap: 22px;
+                height: min-content;
+                justify-content: flex-start;
+                overflow: visible;
+                padding: 0 0 0 10px;
+                position: relative;
+                user-select: none;
+                width: 100%;
+                z-index: 0
+            }
+
+            .framer-VOGci .framer-1k9lpo5,.framer-VOGci .framer-1df0r3f {
+                --framer-paragraph-spacing: 0px;
+                flex: none;
+                height: auto;
+                opacity: .8;
+                position: relative;
+                white-space: pre-wrap;
+                width: 317px;
+                word-break: break-word;
+                word-wrap: break-word
+            }
+
+            .framer-VOGci .framer-qv5ymk {
+                --framer-paragraph-spacing: 0px;
+                flex: none;
+                height: auto;
+                position: relative;
+                white-space: pre-wrap;
+                width: 100%;
+                word-break: break-word;
+                word-wrap: break-word
+            }
+
+            .framer-VOGci .framer-vppsmf {
+                align-content: flex-start;
+                align-items: flex-start;
+                display: flex;
+                flex: none;
+                flex-direction: column;
+                flex-wrap: nowrap;
+                gap: 16px;
+                height: min-content;
+                justify-content: flex-start;
+                overflow: visible;
+                padding: 0;
+                position: relative;
+                width: 100%
+            }
+
+            .framer-VOGci .framer-1ik4qmy,.framer-VOGci .framer-nuu7rz,.framer-VOGci .framer-18921lw {
+                align-content: center;
+                align-items: center;
+                display: flex;
+                flex: none;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                gap: 16px;
+                height: min-content;
+                justify-content: flex-start;
+                overflow: visible;
+                padding: 0;
+                position: relative;
+                width: 100%
+            }
+
+            .framer-VOGci .framer-1yam3cm-container,.framer-VOGci .framer-19wxuuu-container,.framer-VOGci .framer-lp6xtj-container {
+                flex: none;
+                height: 24px;
+                position: relative;
+                width: 24px
+            }
+
+            .framer-VOGci .framer-15qeyfh,.framer-VOGci .framer-19ho7bm,.framer-VOGci .framer-8i7ba {
+                --framer-paragraph-spacing: 0px;
+                flex: 1 0 0px;
+                height: auto;
+                position: relative;
+                white-space: pre-wrap;
+                width: 1px;
+                word-break: break-word;
+                word-wrap: break-word
+            }
+
+            .framer-VOGci .framer-14s2gj6 {
+                -webkit-user-select: none;
+                align-content: center;
+                align-items: center;
+                display: flex;
+                flex: none;
+                flex-direction: column;
+                flex-wrap: nowrap;
+                gap: 36px;
+                height: min-content;
+                justify-content: flex-start;
+                overflow: hidden;
+                padding: 0;
+                position: relative;
+                user-select: none;
+                width: 100%;
+                z-index: 0
+            }
+
+            .framer-VOGci .framer-119ntfc {
+                --border-bottom-width: 1px;
+                --border-color: #649bd1;
+                --border-left-width: 0px;
+                --border-right-width: 0px;
+                --border-style: solid;
+                --border-top-width: 1px;
+                align-content: center;
+                align-items: center;
+                display: flex;
+                flex: none;
+                flex-direction: column;
+                flex-wrap: nowrap;
+                gap: 0px;
+                height: min-content;
+                justify-content: center;
+                max-width: 1440px;
+                overflow: visible;
+                padding: 0;
+                position: relative;
+                width: 100%
+            }
+
+            .framer-VOGci .framer-tu6vlx {
+                --framer-paragraph-spacing: 0px;
+                flex: none;
+                height: 54px;
+                position: relative;
+                white-space: pre-wrap;
+                width: 100%;
+                word-break: break-word;
+                word-wrap: break-word
+            }
+
+            .framer-VOGci .framer-dpy15j {
+                align-content: center;
+                align-items: center;
+                display: flex;
+                flex: none;
+                flex-direction: column;
+                flex-wrap: nowrap;
+                gap: 0px;
+                height: 3267px;
+                justify-content: center;
+                overflow: hidden;
+                padding: 100px;
+                position: relative;
+                width: 390px
+            }
+
+            .framer-VOGci .framer-1xzd0bi {
+                align-content: center;
+                align-items: center;
+                display: flex;
+                flex: none;
+                flex-direction: column;
+                flex-wrap: nowrap;
+                gap: 60px;
+                height: 911px;
+                justify-content: center;
+                max-width: 1000px;
+                overflow: visible;
+                padding: 0;
+                position: relative;
+                width: 100%
+            }
+
+            .framer-VOGci .framer-q24swb,.framer-VOGci .framer-1yssnr5,.framer-VOGci .framer-1rp111a,.framer-VOGci .framer-aepwgc {
+                align-content: center;
+                align-items: center;
+                display: flex;
+                flex: none;
+                flex-direction: column;
+                flex-wrap: nowrap;
+                gap: 30px;
+                height: auto;
+                justify-content: center;
+                overflow: visible;
+                padding: 0;
+                position: relative;
+                width: 293px
+            }
+
+            .framer-VOGci .framer-18wpn6l {
+                align-content: center;
+                align-items: center;
+                aspect-ratio: 1 / 1;
+                border-radius: 20px;
+                display: flex;
+                flex: none;
+                flex-direction: column;
+                flex-wrap: nowrap;
+                gap: 0px;
+                height: var(--framer-aspect-ratio-supported, 293px);
+                justify-content: flex-start;
+                overflow: hidden;
+                padding: 0;
+                position: relative;
+                width: 293px;
+                will-change: var(--framer-will-change-override, transform)
+            }
+
+            .framer-VOGci .framer-drl2n7 {
+                aspect-ratio: 2.1060842433697347 / 1;
+                flex: none;
+                height: var(--framer-aspect-ratio-supported, 293px);
+                overflow: visible;
+                position: relative;
+                width: 617px
+            }
+
+            .framer-VOGci .framer-1264z4j,.framer-VOGci .framer-d491gq,.framer-VOGci .framer-1laci1u,.framer-VOGci .framer-p0p4zu,.framer-VOGci .framer-14zj0ju,.framer-VOGci .framer-816ivk {
+                align-content: flex-start;
+                align-items: flex-start;
+                display: flex;
+                flex: none;
+                flex-direction: column;
+                flex-wrap: nowrap;
+                gap: 10px;
+                height: auto;
+                justify-content: center;
+                padding: 0;
+                position: relative;
+                width: 100%
+            }
+
+            .framer-VOGci .framer-xkci8h,.framer-VOGci .framer-xf586j,.framer-VOGci .framer-13kh9r1,.framer-VOGci .framer-1cktp9h,.framer-VOGci .framer-14vnjkg,.framer-VOGci .framer-c5j1tw {
+                --framer-link-text-color: #0099ff;
+                --framer-link-text-decoration: underline;
+                --framer-paragraph-spacing: 0px;
+                flex: none;
+                height: auto;
+                overflow: visible;
+                position: relative;
+                white-space: pre-wrap;
+                width: 100%;
+                word-break: break-word;
+                word-wrap: break-word
+            }
+
+            .framer-VOGci .framer-1m6wniu,.framer-VOGci .framer-1qj0u8q,.framer-VOGci .framer-1sg2q0a,.framer-VOGci .framer-10n5qpg,.framer-VOGci .framer-12qbeky,.framer-VOGci .framer-tkn6rs {
+                --border-bottom-width: 1px;
+                --border-color: #5eead4;
+                --border-left-width: 1px;
+                --border-right-width: 1px;
+                --border-style: solid;
+                --border-top-width: 1px;
+                -webkit-user-select: none;
+                align-content: center;
+                align-items: center;
+                display: flex;
+                flex: none;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                gap: 10px;
+                height: 52px;
+                justify-content: center;
+                overflow: hidden;
+                padding: 0;
+                position: relative;
+                text-decoration: none;
+                user-select: none;
+                width: 294px
+            }
+
+            .framer-VOGci .framer-f4vi72,.framer-VOGci .framer-k9y670,.framer-VOGci .framer-jy1hck,.framer-VOGci .framer-1yl4gs8,.framer-VOGci .framer-2ezp6q,.framer-VOGci .framer-187rhf8 {
+                --framer-link-text-color: #0099ff;
+                --framer-link-text-decoration: underline;
+                --framer-paragraph-spacing: 0px;
+                flex: none;
+                height: auto;
+                max-width: 100%;
+                position: relative;
+                white-space: pre-wrap;
+                width: auto;
+                word-break: break-word;
+                word-wrap: break-word;
+                z-index: 1
+            }
+
+            .framer-VOGci .framer-cd43ub,.framer-VOGci .framer-19ur3ib,.framer-VOGci .framer-1x39vsi,.framer-VOGci .framer-1gg8iek,.framer-VOGci .framer-fu5491,.framer-VOGci .framer-hu97bw {
+                --framer-paragraph-spacing: 0px;
+                flex: none;
+                height: auto;
+                overflow: visible;
+                position: relative;
+                white-space: pre-wrap;
+                width: 100%;
+                word-break: break-word;
+                word-wrap: break-word
+            }
+
+            .framer-VOGci .framer-vtmdfe,.framer-VOGci .framer-1ha9qn1,.framer-VOGci .framer-1arpcuj,.framer-VOGci .framer-1v8p2pm,.framer-VOGci .framer-4jnk6y {
+                align-content: center;
+                align-items: center;
+                aspect-ratio: 1 / 1;
+                border-radius: 20px;
+                display: flex;
+                flex: none;
+                flex-direction: column;
+                flex-wrap: nowrap;
+                gap: 20px;
+                height: var(--framer-aspect-ratio-supported, 200px);
+                justify-content: center;
+                overflow: hidden;
+                padding: 0;
+                position: relative;
+                width: 100%;
+                will-change: var(--framer-will-change-override, transform)
+            }
+
+            .framer-VOGci .framer-1achqek {
+                aspect-ratio: 2.0930232558139537 / 1;
+                flex: none;
+                height: var(--framer-aspect-ratio-supported, 302px);
+                overflow: visible;
+                position: relative;
+                width: 633px
+            }
+
+            .framer-VOGci .framer-pdclp5,.framer-VOGci .framer-1xhrwnz {
+                align-content: center;
+                align-items: center;
+                display: flex;
+                flex: none;
+                flex-direction: column;
+                flex-wrap: nowrap;
+                gap: 30px;
+                height: auto;
+                justify-content: center;
+                overflow: visible;
+                padding: 0;
+                position: relative;
+                width: 294px
+            }
+
+            .framer-VOGci .framer-dqxfoy {
+                aspect-ratio: 2.0996884735202492 / 1;
+                flex: none;
+                height: var(--framer-aspect-ratio-supported, 293px);
+                overflow: visible;
+                position: relative;
+                width: 615px
+            }
+
+            .framer-VOGci .framer-1kz9z0h {
+                aspect-ratio: 2.1046875 / 1;
+                flex: none;
+                height: var(--framer-aspect-ratio-supported, 293px);
+                overflow: visible;
+                position: relative;
+                width: 621px
+            }
+
+            .framer-VOGci .framer-1p9zhyf {
+                aspect-ratio: 2.0852713178294575 / 1;
+                flex: none;
+                height: var(--framer-aspect-ratio-supported, 293px);
+                overflow: hidden;
+                position: relative;
+                width: 611px
+            }
+
+            .framer-VOGci .framer-1aio2ls {
+                aspect-ratio: 1.3144654088050316 / 1;
+                flex: none;
+                height: var(--framer-aspect-ratio-supported, 293px);
+                overflow: visible;
+                position: relative;
+                width: 385px
+            }
+
+            .framer-VOGci .framer-u56wd1 {
+                --border-bottom-width: 0px;
+                --border-color: #ffffff;
+                --border-left-width: 0px;
+                --border-right-width: 0px;
+                --border-style: solid;
+                --border-top-width: 1px;
+                align-content: center;
+                align-items: center;
+                display: flex;
+                flex: none;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                gap: 10px;
+                height: 136px;
+                justify-content: center;
+                overflow: hidden;
+                padding: 0;
+                position: relative;
+                width: 100%
+            }
+
+            .framer-VOGci .framer-fgd8i0 {
+                align-content: center;
+                align-items: center;
+                display: flex;
+                flex: none;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                gap: 202px;
+                height: 57%;
+                justify-content: center;
+                overflow: hidden;
+                padding: 0 20px;
+                position: relative;
+                width: 100%
+            }
+
+            .framer-VOGci .framer-1n8d59d {
+                align-content: center;
+                align-items: center;
+                display: flex;
+                flex: none;
+                flex-direction: column;
+                flex-wrap: nowrap;
+                gap: 10px;
+                height: 100%;
+                justify-content: flex-start;
+                overflow: hidden;
+                padding: 0;
+                position: relative;
+                width: min-content
+            }
+
+            .framer-VOGci .framer-1sp05r0,.framer-VOGci .framer-2itcx7,.framer-VOGci .framer-103b9dd,.framer-VOGci .framer-u1ffox {
+                --framer-paragraph-spacing: 0px;
+                flex: none;
+                height: auto;
+                position: relative;
+                white-space: pre;
+                width: auto
+            }
+
+            .framer-VOGci .framer-u0a8oz {
+                align-content: flex-start;
+                align-items: flex-start;
+                display: flex;
+                flex: none;
+                flex-direction: column;
+                flex-wrap: nowrap;
+                gap: 10px;
+                height: min-content;
+                justify-content: center;
+                overflow: hidden;
+                padding: 0;
+                position: relative;
+                width: min-content
+            }
+
+            .framer-VOGci .framer-lh1ujl-container {
+                flex: none;
+                height: 60px;
+                position: relative;
+                width: 100%
+            }
+
+            .framer-VOGci .framer-erx598 {
+                --border-bottom-width: 0px;
+                --border-color: #0a192f;
+                --border-left-width: 0px;
+                --border-right-width: 0px;
+                --border-style: solid;
+                --border-top-width: 1px;
+                align-content: center;
+                align-items: center;
+                display: flex;
+                flex: none;
+                flex-direction: column;
+                flex-wrap: nowrap;
+                gap: 0px;
+                height: 90%;
+                justify-content: flex-start;
+                overflow: hidden;
+                padding: 0;
+                position: relative;
+                width: 100%
+            }
+
+            .framer-VOGci .framer-tzg8o6 {
+                align-content: center;
+                align-items: center;
+                background-color: #0a192f;
+                display: flex;
+                flex: none;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                gap: 0px;
+                height: 565px;
+                justify-content: center;
+                overflow: hidden;
+                padding: 0;
+                position: relative;
+                width: 100%
+            }
+
+            .framer-VOGci .framer-1doc58b-container {
+                flex: 1 0 0px;
+                height: auto;
+                position: relative;
+                width: 1px
+            }
+
+            @supports (background: -webkit-named-image(i)) and (not (scale:1)) {
+                .framer-VOGci.framer-kcbtrq,.framer-VOGci .framer-xrw3kb,.framer-VOGci .framer-vppsmf,.framer-VOGci .framer-1ik4qmy,.framer-VOGci .framer-nuu7rz,.framer-VOGci .framer-18921lw,.framer-VOGci .framer-14s2gj6,.framer-VOGci .framer-119ntfc,.framer-VOGci .framer-dpy15j,.framer-VOGci .framer-1xzd0bi,.framer-VOGci .framer-q24swb,.framer-VOGci .framer-18wpn6l,.framer-VOGci .framer-1264z4j,.framer-VOGci .framer-1m6wniu,.framer-VOGci .framer-1yssnr5,.framer-VOGci .framer-vtmdfe,.framer-VOGci .framer-d491gq,.framer-VOGci .framer-1qj0u8q,.framer-VOGci .framer-pdclp5,.framer-VOGci .framer-1ha9qn1,.framer-VOGci .framer-1laci1u,.framer-VOGci .framer-1sg2q0a,.framer-VOGci .framer-1xhrwnz,.framer-VOGci .framer-1arpcuj,.framer-VOGci .framer-p0p4zu,.framer-VOGci .framer-10n5qpg,.framer-VOGci .framer-1rp111a,.framer-VOGci .framer-1v8p2pm,.framer-VOGci .framer-14zj0ju,.framer-VOGci .framer-12qbeky,.framer-VOGci .framer-aepwgc,.framer-VOGci .framer-4jnk6y,.framer-VOGci .framer-816ivk,.framer-VOGci .framer-tkn6rs,.framer-VOGci .framer-u56wd1,.framer-VOGci .framer-fgd8i0,.framer-VOGci .framer-1n8d59d,.framer-VOGci .framer-u0a8oz,.framer-VOGci .framer-erx598,.framer-VOGci .framer-tzg8o6 {
+                    gap:0px
+                }
+
+                .framer-VOGci.framer-kcbtrq>*,.framer-VOGci .framer-119ntfc>*,.framer-VOGci .framer-dpy15j>*,.framer-VOGci .framer-18wpn6l>*,.framer-VOGci .framer-erx598>* {
+                    margin: 0
+                }
+
+                .framer-VOGci.framer-kcbtrq>:first-child,.framer-VOGci .framer-xrw3kb>:first-child,.framer-VOGci .framer-vppsmf>:first-child,.framer-VOGci .framer-14s2gj6>:first-child,.framer-VOGci .framer-119ntfc>:first-child,.framer-VOGci .framer-dpy15j>:first-child,.framer-VOGci .framer-1xzd0bi>:first-child,.framer-VOGci .framer-q24swb>:first-child,.framer-VOGci .framer-18wpn6l>:first-child,.framer-VOGci .framer-1264z4j>:first-child,.framer-VOGci .framer-1yssnr5>:first-child,.framer-VOGci .framer-vtmdfe>:first-child,.framer-VOGci .framer-d491gq>:first-child,.framer-VOGci .framer-pdclp5>:first-child,.framer-VOGci .framer-1ha9qn1>:first-child,.framer-VOGci .framer-1laci1u>:first-child,.framer-VOGci .framer-1xhrwnz>:first-child,.framer-VOGci .framer-1arpcuj>:first-child,.framer-VOGci .framer-p0p4zu>:first-child,.framer-VOGci .framer-1rp111a>:first-child,.framer-VOGci .framer-1v8p2pm>:first-child,.framer-VOGci .framer-14zj0ju>:first-child,.framer-VOGci .framer-aepwgc>:first-child,.framer-VOGci .framer-4jnk6y>:first-child,.framer-VOGci .framer-816ivk>:first-child,.framer-VOGci .framer-1n8d59d>:first-child,.framer-VOGci .framer-u0a8oz>:first-child,.framer-VOGci .framer-erx598>:first-child {
+                    margin-top: 0
+                }
+
+                .framer-VOGci.framer-kcbtrq>:last-child,.framer-VOGci .framer-xrw3kb>:last-child,.framer-VOGci .framer-vppsmf>:last-child,.framer-VOGci .framer-14s2gj6>:last-child,.framer-VOGci .framer-119ntfc>:last-child,.framer-VOGci .framer-dpy15j>:last-child,.framer-VOGci .framer-1xzd0bi>:last-child,.framer-VOGci .framer-q24swb>:last-child,.framer-VOGci .framer-18wpn6l>:last-child,.framer-VOGci .framer-1264z4j>:last-child,.framer-VOGci .framer-1yssnr5>:last-child,.framer-VOGci .framer-vtmdfe>:last-child,.framer-VOGci .framer-d491gq>:last-child,.framer-VOGci .framer-pdclp5>:last-child,.framer-VOGci .framer-1ha9qn1>:last-child,.framer-VOGci .framer-1laci1u>:last-child,.framer-VOGci .framer-1xhrwnz>:last-child,.framer-VOGci .framer-1arpcuj>:last-child,.framer-VOGci .framer-p0p4zu>:last-child,.framer-VOGci .framer-1rp111a>:last-child,.framer-VOGci .framer-1v8p2pm>:last-child,.framer-VOGci .framer-14zj0ju>:last-child,.framer-VOGci .framer-aepwgc>:last-child,.framer-VOGci .framer-4jnk6y>:last-child,.framer-VOGci .framer-816ivk>:last-child,.framer-VOGci .framer-1n8d59d>:last-child,.framer-VOGci .framer-u0a8oz>:last-child,.framer-VOGci .framer-erx598>:last-child {
+                    margin-bottom: 0
+                }
+
+                .framer-VOGci .framer-xrw3kb>* {
+                    margin: 11px 0
+                }
+
+                .framer-VOGci .framer-vppsmf>* {
+                    margin: 8px 0
+                }
+
+                .framer-VOGci .framer-1ik4qmy>*,.framer-VOGci .framer-nuu7rz>*,.framer-VOGci .framer-18921lw>* {
+                    margin: 0 8px
+                }
+
+                .framer-VOGci .framer-1ik4qmy>:first-child,.framer-VOGci .framer-nuu7rz>:first-child,.framer-VOGci .framer-18921lw>:first-child,.framer-VOGci .framer-1m6wniu>:first-child,.framer-VOGci .framer-1qj0u8q>:first-child,.framer-VOGci .framer-1sg2q0a>:first-child,.framer-VOGci .framer-10n5qpg>:first-child,.framer-VOGci .framer-12qbeky>:first-child,.framer-VOGci .framer-tkn6rs>:first-child,.framer-VOGci .framer-u56wd1>:first-child,.framer-VOGci .framer-fgd8i0>:first-child,.framer-VOGci .framer-tzg8o6>:first-child {
+                    margin-left: 0
+                }
+
+                .framer-VOGci .framer-1ik4qmy>:last-child,.framer-VOGci .framer-nuu7rz>:last-child,.framer-VOGci .framer-18921lw>:last-child,.framer-VOGci .framer-1m6wniu>:last-child,.framer-VOGci .framer-1qj0u8q>:last-child,.framer-VOGci .framer-1sg2q0a>:last-child,.framer-VOGci .framer-10n5qpg>:last-child,.framer-VOGci .framer-12qbeky>:last-child,.framer-VOGci .framer-tkn6rs>:last-child,.framer-VOGci .framer-u56wd1>:last-child,.framer-VOGci .framer-fgd8i0>:last-child,.framer-VOGci .framer-tzg8o6>:last-child {
+                    margin-right: 0
+                }
+
+                .framer-VOGci .framer-14s2gj6>* {
+                    margin: 18px 0
+                }
+
+                .framer-VOGci .framer-1xzd0bi>* {
+                    margin: 30px 0
+                }
+
+                .framer-VOGci .framer-q24swb>*,.framer-VOGci .framer-1yssnr5>*,.framer-VOGci .framer-pdclp5>*,.framer-VOGci .framer-1xhrwnz>*,.framer-VOGci .framer-1rp111a>*,.framer-VOGci .framer-aepwgc>* {
+                    margin: 15px 0
+                }
+
+                .framer-VOGci .framer-1264z4j>*,.framer-VOGci .framer-d491gq>*,.framer-VOGci .framer-1laci1u>*,.framer-VOGci .framer-p0p4zu>*,.framer-VOGci .framer-14zj0ju>*,.framer-VOGci .framer-816ivk>*,.framer-VOGci .framer-1n8d59d>*,.framer-VOGci .framer-u0a8oz>* {
+                    margin: 5px 0
+                }
+
+                .framer-VOGci .framer-1m6wniu>*,.framer-VOGci .framer-1qj0u8q>*,.framer-VOGci .framer-1sg2q0a>*,.framer-VOGci .framer-10n5qpg>*,.framer-VOGci .framer-12qbeky>*,.framer-VOGci .framer-tkn6rs>*,.framer-VOGci .framer-u56wd1>* {
+                    margin: 0 5px
+                }
+
+                .framer-VOGci .framer-vtmdfe>*,.framer-VOGci .framer-1ha9qn1>*,.framer-VOGci .framer-1arpcuj>*,.framer-VOGci .framer-1v8p2pm>*,.framer-VOGci .framer-4jnk6y>* {
+                    margin: 10px 0
+                }
+
+                .framer-VOGci .framer-fgd8i0>* {
+                    margin: 0 101px
+                }
+
+                .framer-VOGci .framer-tzg8o6>* {
+                    margin: 0
+                }
+            }
+
+            @media (min-width: 1200px) {
+                .framer-VOGci .hidden-kcbtrq {
+                    display:none!important
+                }
+            }
+
+            @media (max-width: 809px) {
+                .framer-VOGci .hidden-fs7c8w {
+                    display:none!important
+                }
+
+                .framer-body-Z661wZyuo-framer-VOGci {
+                    background: rgb(10,25,47)
+                }
+
+                .framer-VOGci.framer-kcbtrq {
+                    gap: 22px;
+                    width: 390px
+                }
+
+                .framer-VOGci .framer-1xzd0bi,.framer-VOGci .framer-18wpn6l,.framer-VOGci .framer-xkci8h,.framer-VOGci .framer-1achqek {
+                    order: 0
+                }
+
+                .framer-VOGci .framer-drl2n7 {
+                    height: var(--framer-aspect-ratio-supported, 292px)
+                }
+
+                .framer-VOGci .framer-1264z4j,.framer-VOGci .framer-cd43ub {
+                    order: 1
+                }
+
+                .framer-VOGci .framer-1m6wniu {
+                    order: 2
+                }
+
+                .framer-VOGci .framer-vtmdfe,.framer-VOGci .framer-1v8p2pm,.framer-VOGci .framer-4jnk6y {
+                    height: var(--framer-aspect-ratio-supported, 293px)
+                }
+
+                .framer-VOGci .framer-1ha9qn1,.framer-VOGci .framer-1arpcuj {
+                    height: var(--framer-aspect-ratio-supported, 294px)
+                }
+
+                .framer-VOGci .framer-1kz9z0h {
+                    height: var(--framer-aspect-ratio-supported, 295px)
+                }
+
+                @supports (background: -webkit-named-image(i)) and (not (scale:1)) {
+                    .framer-VOGci.framer-kcbtrq {
+                        gap:0px
+                    }
+
+                    .framer-VOGci.framer-kcbtrq>* {
+                        margin: 11px 0
+                    }
+
+                    .framer-VOGci.framer-kcbtrq>:first-child {
+                        margin-top: 0
+                    }
+
+                    .framer-VOGci.framer-kcbtrq>:last-child {
+                        margin-bottom: 0
+                    }
+                }
+            }
+
+            @media (min-width: 810px) and (max-width: 1199px) {
+                .framer-VOGci .hidden-1trjzul {
+                    display:none!important
+                }
+
+                .framer-body-Z661wZyuo-framer-VOGci {
+                    background: rgb(10,25,47)
+                }
+
+                .framer-VOGci.framer-kcbtrq {
+                    width: 810px
+                }
+            }
+
+            .framer-7Byw3 .framer-styles-preset-12elt5d:not(.rich-text-wrapper),.framer-7Byw3 .framer-styles-preset-12elt5d.rich-text-wrapper a {
+                --framer-link-current-text-decoration: underline;
+                --framer-link-hover-text-decoration: underline;
+                --framer-link-text-color: #99a2c7;
+                --framer-link-text-decoration: none
+            }
+
+            .framer-VOGci[data-border=true]:after,.framer-VOGci [data-border=true]:after {
+                content: "";
+                border-width: var(--border-top-width, 0) var(--border-right-width, 0) var(--border-bottom-width, 0) var(--border-left-width, 0);
+                border-color: var(--border-color, none);
+                border-style: var(--border-style, none);
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                box-sizing: border-box;
+                left: 0;
+                top: 0;
+                border-radius: inherit;
+                pointer-events: none
+            }
+
+            .framer-oFzt9.framer-koni4p,.framer-oFzt9 .framer-koni4p {
+                display: block
+            }
+
+            .framer-oFzt9.framer-1knffpp {
+                align-content: center;
+                align-items: center;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                height: auto;
+                justify-content: space-between;
+                overflow: hidden;
+                padding: 12px 135px;
+                position: relative;
+                width: 1200px
+            }
+
+            .framer-oFzt9 .framer-4nzvtw {
+                align-content: center;
+                align-items: center;
+                display: flex;
+                flex: none;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                gap: 0px;
+                height: min-content;
+                justify-content: center;
+                overflow: visible;
+                padding: 10px 0 10px 10px;
+                position: relative;
+                width: min-content
+            }
+
+            .framer-oFzt9 .framer-103d2cp {
+                flex: none;
+                height: 40px;
+                overflow: hidden;
+                position: relative;
+                width: 40px
+            }
+
+            .framer-oFzt9 .framer-11t8tnh {
+                flex: none;
+                height: 2px;
+                left: calc(50.00000000000002% - 20px / 2);
+                overflow: hidden;
+                position: absolute;
+                top: calc(62.50000000000002% - 2px / 2);
+                width: 20px;
+                will-change: var(--framer-will-change-override, transform)
+            }
+
+            .framer-oFzt9 .framer-gvp4oj {
+                flex: none;
+                height: 2px;
+                left: calc(50.00000000000002% - 20px / 2);
+                overflow: hidden;
+                position: absolute;
+                top: calc(37.50000000000002% - 2px / 2);
+                width: 20px;
+                will-change: var(--framer-will-change-override, transform)
+            }
+
+            .framer-oFzt9 .framer-xxj5iq {
+                flex: none;
+                height: 34px;
+                overflow: visible;
+                position: relative;
+                width: 104px
+            }
+
+            .framer-oFzt9 .framer-zy37eh {
+                flex: none;
+                height: auto;
+                left: 0;
+                position: absolute;
+                top: 0;
+                white-space: pre;
+                width: auto
+            }
+
+            .framer-oFzt9 .framer-1fvx2b4 {
+                flex: none;
+                height: auto;
+                left: 70px;
+                position: absolute;
+                top: 0;
+                white-space: pre;
+                width: auto
+            }
+
+            .framer-oFzt9 .framer-1dgdoef {
+                align-content: center;
+                align-items: center;
+                display: flex;
+                flex: none;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                gap: 20px;
+                height: min-content;
+                justify-content: center;
+                overflow: visible;
+                padding: 0;
+                position: relative;
+                width: min-content
+            }
+
+            .framer-oFzt9 .framer-1we8o2c,.framer-oFzt9 .framer-l46l1i,.framer-oFzt9 .framer-1x3nbis,.framer-oFzt9 .framer-16dj9ls {
+                -webkit-user-select: none;
+                flex: none;
+                height: auto;
+                position: relative;
+                user-select: none;
+                white-space: pre;
+                width: auto
+            }
+
+            @supports (background: -webkit-named-image(i)) and (not (font-palette:dark)) {
+                .framer-oFzt9 .framer-4nzvtw,.framer-oFzt9 .framer-1dgdoef {
+                    gap:0px
+                }
+
+                .framer-oFzt9 .framer-4nzvtw>* {
+                    margin: 0
+                }
+
+                .framer-oFzt9 .framer-4nzvtw>:first-child,.framer-oFzt9 .framer-1dgdoef>:first-child {
+                    margin-left: 0
+                }
+
+                .framer-oFzt9 .framer-4nzvtw>:last-child,.framer-oFzt9 .framer-1dgdoef>:last-child {
+                    margin-right: 0
+                }
+
+                .framer-oFzt9 .framer-1dgdoef>* {
+                    margin: 0 10px
+                }
+            }
+
+            .framer-oFzt9.framer-v-109l80u.framer-1knffpp {
+                flex-direction: column;
+                gap: 0px;
+                justify-content: center;
+                padding: 0 0 0 10px;
+                width: 390px
+            }
+
+            .framer-oFzt9.framer-v-109l80u .framer-4nzvtw {
+                gap: unset;
+                justify-content: space-between;
+                padding: 0;
+                width: 100%
+            }
+
+            .framer-oFzt9.framer-v-109l80u .framer-103d2cp {
+                height: 44px;
+                order: 1;
+                width: 44px
+            }
+
+            .framer-oFzt9.framer-v-109l80u .framer-xxj5iq {
+                align-content: center;
+                align-items: center;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                gap: 3px;
+                justify-content: center;
+                order: 0;
+                padding: 0;
+                width: min-content
+            }
+
+            .framer-oFzt9.framer-v-109l80u .framer-zy37eh,.framer-oFzt9.framer-v-109l80u .framer-1fvx2b4 {
+                left: unset;
+                position: relative;
+                top: unset
+            }
+
+            @supports (background: -webkit-named-image(i)) and (not (font-palette:dark)) {
+                .framer-oFzt9.framer-v-109l80u.framer-1knffpp,.framer-oFzt9.framer-v-109l80u .framer-4nzvtw,.framer-oFzt9.framer-v-109l80u .framer-xxj5iq {
+                    gap:0px
+                }
+
+                .framer-oFzt9.framer-v-109l80u.framer-1knffpp>* {
+                    margin: 0
+                }
+
+                .framer-oFzt9.framer-v-109l80u.framer-1knffpp>:first-child {
+                    margin-top: 0
+                }
+
+                .framer-oFzt9.framer-v-109l80u.framer-1knffpp>:last-child {
+                    margin-bottom: 0
+                }
+
+                .framer-oFzt9.framer-v-109l80u .framer-4nzvtw>*,.framer-oFzt9.framer-v-109l80u .framer-4nzvtw>:first-child,.framer-oFzt9.framer-v-109l80u .framer-4nzvtw>:last-child {
+                    margin: 0
+                }
+
+                .framer-oFzt9.framer-v-109l80u .framer-xxj5iq>* {
+                    margin: 0 1.5px
+                }
+
+                .framer-oFzt9.framer-v-109l80u .framer-xxj5iq>:first-child {
+                    margin-left: 0
+                }
+
+                .framer-oFzt9.framer-v-109l80u .framer-xxj5iq>:last-child {
+                    margin-right: 0
+                }
+            }
+
+            .framer-oFzt9.framer-v-1hg051q.framer-1knffpp {
+                padding: 12px 60px;
+                width: 810px
+            }
+
+            .framer-kBsmB.framer-1yevf8x,.framer-kBsmB .framer-1yevf8x {
+                display: block
+            }
+
+            .framer-kBsmB.framer-1spwibj {
+                align-content: center;
+                align-items: center;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                height: 64px;
+                justify-content: space-between;
+                overflow: hidden;
+                padding: 0;
+                position: relative;
+                width: 1200px
+            }
+
+            .framer-kBsmB .framer-ssgxgt {
+                align-content: center;
+                align-items: center;
+                display: flex;
+                flex: none;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                gap: 0px;
+                height: min-content;
+                justify-content: center;
+                overflow: visible;
+                padding: 10px 0 10px 10px;
+                position: relative;
+                width: min-content
+            }
+
+            .framer-kBsmB .framer-1hydy12 {
+                flex: none;
+                height: 24px;
+                position: relative;
+                width: 26px
+            }
+
+            .framer-kBsmB .framer-kbmch2 {
+                flex: none;
+                height: 40px;
+                overflow: hidden;
+                position: relative;
+                width: 40px
+            }
+
+            .framer-kBsmB .framer-e83v1l {
+                flex: none;
+                height: 2px;
+                left: calc(50.00000000000002% - 20px / 2);
+                overflow: hidden;
+                position: absolute;
+                top: calc(62.50000000000002% - 2px / 2);
+                width: 20px;
+                will-change: var(--framer-will-change-override, transform)
+            }
+
+            .framer-kBsmB .framer-10qes3p {
+                flex: none;
+                height: 2px;
+                left: calc(50.00000000000002% - 20px / 2);
+                overflow: hidden;
+                position: absolute;
+                top: calc(37.50000000000002% - 2px / 2);
+                width: 20px;
+                will-change: var(--framer-will-change-override, transform)
+            }
+
+            .framer-kBsmB .framer-19rlqh4 {
+                aspect-ratio: 1 / 1;
+                flex: none;
+                height: var(--framer-aspect-ratio-supported, 40px);
+                overflow: visible;
+                position: relative;
+                width: 40px
+            }
+
+            .framer-kBsmB .framer-1p999ff,.framer-kBsmB .framer-x02s4t,.framer-kBsmB .framer-vwfo7m,.framer-kBsmB .framer-1wtthdd {
+                -webkit-user-select: none;
+                flex: none;
+                height: auto;
+                position: relative;
+                user-select: none;
+                white-space: pre;
+                width: auto
+            }
+
+            .framer-kBsmB .framer-i1zsgc {
+                align-content: center;
+                align-items: center;
+                display: flex;
+                flex: none;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                gap: 20px;
+                height: min-content;
+                justify-content: center;
+                overflow: visible;
+                padding: 0;
+                position: relative;
+                width: min-content
+            }
+
+            .framer-kBsmB .framer-w6j2dm-container {
+                flex: none;
+                height: 43px;
+                position: relative;
+                width: 96px
+            }
+
+            @supports (background: -webkit-named-image(i)) and (not (font-palette:dark)) {
+                .framer-kBsmB .framer-ssgxgt,.framer-kBsmB .framer-i1zsgc {
+                    gap:0px
+                }
+
+                .framer-kBsmB .framer-ssgxgt>* {
+                    margin: 0
+                }
+
+                .framer-kBsmB .framer-ssgxgt>:first-child,.framer-kBsmB .framer-i1zsgc>:first-child {
+                    margin-left: 0
+                }
+
+                .framer-kBsmB .framer-ssgxgt>:last-child,.framer-kBsmB .framer-i1zsgc>:last-child {
+                    margin-right: 0
+                }
+
+                .framer-kBsmB .framer-i1zsgc>* {
+                    margin: 0 10px
+                }
+            }
+
+            .framer-kBsmB.framer-v-15pvkb1.framer-1spwibj {
+                flex-direction: column;
+                width: 390px
+            }
+
+            .framer-kBsmB.framer-v-15pvkb1 .framer-ssgxgt,.framer-kBsmB.framer-v-1lcyws8 .framer-ssgxgt {
+                cursor: pointer;
+                gap: unset;
+                justify-content: space-between;
+                padding: 10px;
+                width: 100%
+            }
+
+            .framer-kBsmB.framer-v-15pvkb1 .framer-kbmch2,.framer-kBsmB.framer-v-1lcyws8 .framer-kbmch2 {
+                height: 44px;
+                width: 44px
+            }
+
+            .framer-kBsmB.framer-v-15pvkb1 .framer-i1zsgc {
+                align-content: flex-start;
+                align-items: flex-start;
+                flex-direction: column;
+                gap: 0px;
+                padding: 20px 20px 120px;
+                width: 100%
+            }
+
+            @supports (background: -webkit-named-image(i)) and (not (font-palette:dark)) {
+                .framer-kBsmB.framer-v-15pvkb1.framer-1spwibj,.framer-kBsmB.framer-v-15pvkb1 .framer-ssgxgt,.framer-kBsmB.framer-v-15pvkb1 .framer-i1zsgc {
+                    gap:0px
+                }
+
+                .framer-kBsmB.framer-v-15pvkb1.framer-1spwibj>*,.framer-kBsmB.framer-v-15pvkb1.framer-1spwibj>:first-child,.framer-kBsmB.framer-v-15pvkb1.framer-1spwibj>:last-child,.framer-kBsmB.framer-v-15pvkb1 .framer-ssgxgt>*,.framer-kBsmB.framer-v-15pvkb1 .framer-ssgxgt>:first-child,.framer-kBsmB.framer-v-15pvkb1 .framer-ssgxgt>:last-child {
+                    margin: 0
+                }
+
+                .framer-kBsmB.framer-v-15pvkb1 .framer-i1zsgc>* {
+                    margin: 0
+                }
+
+                .framer-kBsmB.framer-v-15pvkb1 .framer-i1zsgc>:first-child {
+                    margin-top: 0
+                }
+
+                .framer-kBsmB.framer-v-15pvkb1 .framer-i1zsgc>:last-child {
+                    margin-bottom: 0
+                }
+            }
+
+            .framer-kBsmB.framer-v-1lcyws8.framer-1spwibj {
+                flex-direction: column;
+                height: auto;
+                max-height: calc(var(--framer-viewport-height, 100vh) * 1);
+                overflow: auto;
+                overscroll-behavior: contain;
+                width: 390px
+            }
+
+            .framer-kBsmB.framer-v-1lcyws8 .framer-e83v1l,.framer-kBsmB.framer-v-1lcyws8 .framer-10qes3p {
+                top: calc(50.00000000000002% - 2px / 2)
+            }
+
+            .framer-kBsmB.framer-v-1lcyws8 .framer-i1zsgc {
+                align-content: flex-start;
+                align-items: flex-start;
+                flex-direction: column;
+                gap: 0px;
+                padding: 20px;
+                width: 100%
+            }
+
+            @supports (background: -webkit-named-image(i)) and (not (font-palette:dark)) {
+                .framer-kBsmB.framer-v-1lcyws8.framer-1spwibj,.framer-kBsmB.framer-v-1lcyws8 .framer-ssgxgt,.framer-kBsmB.framer-v-1lcyws8 .framer-i1zsgc {
+                    gap:0px
+                }
+
+                .framer-kBsmB.framer-v-1lcyws8.framer-1spwibj>*,.framer-kBsmB.framer-v-1lcyws8.framer-1spwibj>:first-child,.framer-kBsmB.framer-v-1lcyws8.framer-1spwibj>:last-child,.framer-kBsmB.framer-v-1lcyws8 .framer-ssgxgt>*,.framer-kBsmB.framer-v-1lcyws8 .framer-ssgxgt>:first-child,.framer-kBsmB.framer-v-1lcyws8 .framer-ssgxgt>:last-child {
+                    margin: 0
+                }
+
+                .framer-kBsmB.framer-v-1lcyws8 .framer-i1zsgc>* {
+                    margin: 0
+                }
+
+                .framer-kBsmB.framer-v-1lcyws8 .framer-i1zsgc>:first-child {
+                    margin-top: 0
+                }
+
+                .framer-kBsmB.framer-v-1lcyws8 .framer-i1zsgc>:last-child {
+                    margin-bottom: 0
+                }
+            }
+
+            .framer-kBsmB.framer-v-1wmov3s.framer-1spwibj {
+                height: auto;
+                padding: 0 20px 0 0
+            }
+
+            .framer-kBsmB.framer-v-1wmov3s .framer-ssgxgt {
+                gap: 11px
+            }
+
+            .framer-kBsmB.framer-v-1wmov3s .framer-i1zsgc {
+                -webkit-user-select: none;
+                user-select: none
+            }
+
+            @supports (background: -webkit-named-image(i)) and (not (font-palette:dark)) {
+                .framer-kBsmB.framer-v-1wmov3s .framer-ssgxgt {
+                    gap:0px
+                }
+
+                .framer-kBsmB.framer-v-1wmov3s .framer-ssgxgt>* {
+                    margin: 0 5.5px
+                }
+
+                .framer-kBsmB.framer-v-1wmov3s .framer-ssgxgt>:first-child {
+                    margin-left: 0
+                }
+
+                .framer-kBsmB.framer-v-1wmov3s .framer-ssgxgt>:last-child {
+                    margin-right: 0
+                }
+            }
+
+            .framer-kBsmB[data-border=true]:after,.framer-kBsmB [data-border=true]:after {
+                content: "";
+                border-width: var(--border-top-width, 0) var(--border-right-width, 0) var(--border-bottom-width, 0) var(--border-left-width, 0);
+                border-color: var(--border-color, none);
+                border-style: var(--border-style, none);
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                box-sizing: border-box;
+                left: 0;
+                top: 0;
+                border-radius: inherit;
+                pointer-events: none
+            }
+
+            .framer-iszRP.framer-1ihenov,.framer-iszRP .framer-1ihenov {
+                display: block
+            }
+
+            .framer-iszRP.framer-140l3jo {
+                align-content: center;
+                align-items: center;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                gap: 10px;
+                height: 43px;
+                justify-content: center;
+                overflow: hidden;
+                padding: 0;
+                position: relative;
+                width: 96px;
+                will-change: var(--framer-will-change-override, transform)
+            }
+
+            @supports (background: -webkit-named-image(i)) and (not (font-palette:dark)) {
+                .framer-iszRP.framer-140l3jo {
+                    gap:0px
+                }
+
+                .framer-iszRP.framer-140l3jo>* {
+                    margin: 0 5px
+                }
+
+                .framer-iszRP.framer-140l3jo>:first-child {
+                    margin-left: 0
+                }
+
+                .framer-iszRP.framer-140l3jo>:last-child {
+                    margin-right: 0
+                }
+            }
+
+            .framer-iszRP.framer-v-ajebby.framer-140l3jo {
+                height: auto;
+                width: auto
+            }
+
+            .ssr-variant {
+                display: contents
+            }
+
+            @supports (aspect-ratio: 1) {
+                body {
+                    --framer-aspect-ratio-supported: auto
+                }
+            }
+
+            .framer-qoIXB.framer-1yuhcbp,.framer-qoIXB .framer-1yuhcbp {
+                display: block
+            }
+
+            .framer-qoIXB.framer-ku6a7v {
+                align-content: center;
+                align-items: center;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                gap: 10px;
+                height: auto;
+                justify-content: center;
+                overflow: hidden;
+                padding: 0;
+                position: relative;
+                width: 1200px
+            }
+
+            .framer-qoIXB .framer-lg7y9o-container {
+                flex: none;
+                height: auto;
+                max-width: 1440px;
+                position: relative;
+                width: 390px
+            }
+
+            .framer-qoIXB .framer-17d2ajd {
+                align-content: flex-start;
+                align-items: flex-start;
+                display: flex;
+                flex: none;
+                flex-direction: column;
+                flex-wrap: nowrap;
+                gap: 0px;
+                height: min-content;
+                justify-content: flex-start;
+                overflow: hidden;
+                padding: 0;
+                position: relative;
+                width: min-content
+            }
+
+            .framer-qoIXB .framer-12m4n8 {
+                -webkit-user-select: none;
+                align-content: flex-start;
+                align-items: flex-start;
+                display: flex;
+                flex: none;
+                flex-direction: column;
+                flex-wrap: nowrap;
+                gap: 14px;
+                height: min-content;
+                justify-content: center;
+                overflow: visible;
+                padding: 0;
+                position: relative;
+                user-select: none;
+                width: min-content
+            }
+
+            .framer-qoIXB .framer-negc47 {
+                align-content: center;
+                align-items: center;
+                display: flex;
+                flex: none;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                gap: 10px;
+                height: min-content;
+                justify-content: flex-start;
+                overflow: visible;
+                padding: 0;
+                position: relative;
+                width: 187px
+            }
+
+            .framer-qoIXB .framer-ro152c,.framer-qoIXB .framer-tvlmas {
+                flex: none;
+                height: auto;
+                max-width: 100%;
+                position: relative;
+                white-space: pre-wrap;
+                width: auto;
+                word-break: break-word;
+                word-wrap: break-word;
+                z-index: 1
+            }
+
+            .framer-qoIXB .framer-1ubszks,.framer-qoIXB .framer-592xcz {
+                flex: none;
+                height: auto;
+                position: relative;
+                white-space: pre;
+                width: auto
+            }
+
+            .framer-qoIXB .framer-1cyqr79 {
+                -webkit-user-select: none;
+                align-content: flex-start;
+                align-items: flex-start;
+                display: flex;
+                flex: none;
+                flex-direction: column;
+                flex-wrap: nowrap;
+                gap: 16px;
+                height: min-content;
+                justify-content: center;
+                overflow: visible;
+                padding: 20px 0;
+                position: relative;
+                user-select: none;
+                width: min-content
+            }
+
+            .framer-qoIXB .framer-14mo40u {
+                flex: none;
+                height: 78px;
+                overflow: visible;
+                position: relative;
+                width: 966px
+            }
+
+            .framer-qoIXB .framer-161alzw {
+                flex: none;
+                height: auto;
+                left: 0;
+                position: absolute;
+                right: 0;
+                top: 50%;
+                white-space: pre-wrap;
+                word-break: break-word;
+                word-wrap: break-word
+            }
+
+            .framer-qoIXB .framer-3ashid {
+                align-content: center;
+                align-items: center;
+                align-self: stretch;
+                display: flex;
+                flex: none;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                gap: 48px;
+                height: 98px;
+                justify-content: flex-start;
+                overflow: visible;
+                padding: 0;
+                position: relative;
+                width: auto
+            }
+
+            .framer-qoIXB .framer-1pqe6sn {
+                -webkit-user-select: none;
+                align-content: center;
+                align-items: center;
+                display: flex;
+                flex: none;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                gap: 10px;
+                height: 71px;
+                justify-content: center;
+                overflow: hidden;
+                padding: 0;
+                position: relative;
+                user-select: none;
+                width: 213px
+            }
+
+            .framer-qoIXB .framer-g1cvo0 {
+                -webkit-user-select: none;
+                flex: none;
+                height: auto;
+                max-width: 100%;
+                position: relative;
+                user-select: none;
+                white-space: pre-wrap;
+                width: auto;
+                word-break: break-word;
+                word-wrap: break-word;
+                z-index: 1
+            }
+
+            .framer-qoIXB .framer-2p1bjq {
+                -webkit-user-select: none;
+                align-content: center;
+                align-items: center;
+                display: flex;
+                flex: none;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                gap: 10px;
+                height: 71px;
+                justify-content: center;
+                overflow: hidden;
+                padding: 0;
+                position: relative;
+                text-decoration: none;
+                user-select: none;
+                width: 213px
+            }
+
+            @supports (background: -webkit-named-image(i)) and (not (font-palette:dark)) {
+                .framer-qoIXB.framer-ku6a7v,.framer-qoIXB .framer-17d2ajd,.framer-qoIXB .framer-12m4n8,.framer-qoIXB .framer-negc47,.framer-qoIXB .framer-1cyqr79,.framer-qoIXB .framer-3ashid,.framer-qoIXB .framer-1pqe6sn,.framer-qoIXB .framer-2p1bjq {
+                    gap:0px
+                }
+
+                .framer-qoIXB.framer-ku6a7v>*,.framer-qoIXB .framer-negc47>*,.framer-qoIXB .framer-1pqe6sn>*,.framer-qoIXB .framer-2p1bjq>* {
+                    margin: 0 5px
+                }
+
+                .framer-qoIXB.framer-ku6a7v>:first-child,.framer-qoIXB .framer-negc47>:first-child,.framer-qoIXB .framer-3ashid>:first-child,.framer-qoIXB .framer-1pqe6sn>:first-child,.framer-qoIXB .framer-2p1bjq>:first-child {
+                    margin-left: 0
+                }
+
+                .framer-qoIXB.framer-ku6a7v>:last-child,.framer-qoIXB .framer-negc47>:last-child,.framer-qoIXB .framer-3ashid>:last-child,.framer-qoIXB .framer-1pqe6sn>:last-child,.framer-qoIXB .framer-2p1bjq>:last-child {
+                    margin-right: 0
+                }
+
+                .framer-qoIXB .framer-17d2ajd>* {
+                    margin: 0
+                }
+
+                .framer-qoIXB .framer-17d2ajd>:first-child,.framer-qoIXB .framer-12m4n8>:first-child,.framer-qoIXB .framer-1cyqr79>:first-child {
+                    margin-top: 0
+                }
+
+                .framer-qoIXB .framer-17d2ajd>:last-child,.framer-qoIXB .framer-12m4n8>:last-child,.framer-qoIXB .framer-1cyqr79>:last-child {
+                    margin-bottom: 0
+                }
+
+                .framer-qoIXB .framer-12m4n8>* {
+                    margin: 7px 0
+                }
+
+                .framer-qoIXB .framer-1cyqr79>* {
+                    margin: 8px 0
+                }
+
+                .framer-qoIXB .framer-3ashid>* {
+                    margin: 0 24px
+                }
+            }
+
+            .framer-qoIXB.framer-v-kdh0ks.framer-ku6a7v {
+                width: 810px
+            }
+
+            .framer-qoIXB.framer-v-kdh0ks .framer-17d2ajd {
+                width: 676px
+            }
+
+            .framer-qoIXB.framer-v-kdh0ks .framer-1cyqr79 {
+                width: 100%
+            }
+
+            .framer-qoIXB.framer-v-kdh0ks .framer-14mo40u {
+                height: 84px;
+                width: 100%
+            }
+
+            .framer-qoIXB.framer-v-kdh0ks .framer-161alzw {
+                right: unset;
+                width: 100%
+            }
+
+            .framer-qoIXB.framer-v-kdh0ks .framer-3ashid {
+                align-self: unset;
+                width: 810px
+            }
+
+            .framer-qoIXB.framer-v-15ejcna.framer-ku6a7v {
+                flex-direction: column;
+                height: 634px;
+                justify-content: flex-start;
+                width: 390px
+            }
+
+            @supports (background: -webkit-named-image(i)) and (not (font-palette:dark)) {
+                .framer-qoIXB.framer-v-15ejcna.framer-ku6a7v {
+                    gap:0px
+                }
+
+                .framer-qoIXB.framer-v-15ejcna.framer-ku6a7v>* {
+                    margin: 5px 0
+                }
+
+                .framer-qoIXB.framer-v-15ejcna.framer-ku6a7v>:first-child {
+                    margin-top: 0
+                }
+
+                .framer-qoIXB.framer-v-15ejcna.framer-ku6a7v>:last-child {
+                    margin-bottom: 0
+                }
+            }
+
+            .framer-qoIXB[data-border=true]:after,.framer-qoIXB [data-border=true]:after {
+                content: "";
+                border-width: var(--border-top-width, 0) var(--border-right-width, 0) var(--border-bottom-width, 0) var(--border-left-width, 0);
+                border-color: var(--border-color, none);
+                border-style: var(--border-style, none);
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                box-sizing: border-box;
+                left: 0;
+                top: 0;
+                border-radius: inherit;
+                pointer-events: none
+            }
+        </style>
+        <!-- End of headEnd -->
+    </head>
+    <body class="framer-body-Z661wZyuo">
+        <script async="" src="https://events.framer.com/script" data-fid="e371d7bc4d23e2155d1a700d544e85bbd175dcf9a6e933d208099edb0dd28e4d"></script>
+        <!-- End of bodyStart -->
+        <div id="main" data-framer-hydrate-v2="{&quot;routeId&quot;:&quot;Z661wZyuo&quot;,&quot;localeId&quot;:&quot;default&quot;}" data-framer-ssr-released-at="2024-03-19T11:22:12.656Z" data-framer-page-optimized-at="2024-03-21T22:24:02.252Z">
+            <!--$-->
+            <div class="framer-VOGci framer-7Byw3 framer-kcbtrq" style="min-height:100vh;width:auto">
+                <div class="ssr-variant hidden-fs7c8w">
+                    <div class="framer-1aw8s6l-container hidden-kcbtrq hidden-1trjzul">
+                        <nav class="framer-oFzt9 framer-1knffpp framer-v-109l80u" data-framer-name="Phone" style="background-color:rgba(0, 0, 0, 0);max-width:100%;width:100%" tabindex="0">
+                            <div class="framer-4nzvtw" data-framer-name="Top">
+                                <div class="framer-103d2cp" data-framer-name="Icon">
+                                    <div class="framer-11t8tnh" data-framer-name="Bottom" style="background-color:rgb(153, 153, 153);border-bottom-left-radius:10px;border-bottom-right-radius:10px;border-top-left-radius:10px;border-top-right-radius:10px"></div>
+                                    <div class="framer-gvp4oj" data-framer-name="Top" style="background-color:rgb(153, 153, 153);border-bottom-left-radius:10px;border-bottom-right-radius:10px;border-top-left-radius:10px;border-top-right-radius:10px"></div>
+                                </div>
+                                <div class="framer-xxj5iq" data-framer-name="logo">
+                                    <div class="framer-zy37eh" style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;--framer-paragraph-spacing:0px;--extracted-r6o4lv:rgb(255, 255, 255);transform:none" data-framer-component-type="RichTextContainer">
+                                        <p style="--font-selector:R0Y7U2VuLTgwMA==;--framer-font-family:&quot;Sen&quot;, &quot;Sen Placeholder&quot;, sans-serif;--framer-font-size:28px;--framer-font-weight:800;--framer-text-color:var(--extracted-r6o4lv, rgb(255, 255, 255))" class="framer-text">Dan</p>
+                                    </div>
+                                    <div class="framer-1fvx2b4" style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;--extracted-r6o4lv:rgb(0, 120, 189);--framer-paragraph-spacing:0px;transform:none" data-framer-component-type="RichTextContainer">
+                                        <p style="--font-selector:R0Y7U2VuLTgwMA==;--framer-font-family:&quot;Sen&quot;, &quot;Sen Placeholder&quot;, sans-serif;--framer-font-size:28px;--framer-font-weight:800;--framer-text-color:var(--extracted-r6o4lv, rgb(0, 120, 189))" class="framer-text">iel</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+                <div class="ssr-variant hidden-1trjzul hidden-kcbtrq">
+                    <div class="framer-1aw8s6l-container hidden-kcbtrq hidden-1trjzul">
+                        <nav class="framer-oFzt9 framer-1knffpp framer-v-109l80u" data-framer-name="Phone" style="background-color:rgba(0, 0, 0, 0);max-width:100%;width:100%" tabindex="0">
+                            <div class="framer-4nzvtw" data-framer-name="Top">
+                                <div class="framer-103d2cp" data-framer-name="Icon">
+                                    <div class="framer-11t8tnh" data-framer-name="Bottom" style="background-color:rgb(153, 153, 153);border-bottom-left-radius:10px;border-bottom-right-radius:10px;border-top-left-radius:10px;border-top-right-radius:10px"></div>
+                                    <div class="framer-gvp4oj" data-framer-name="Top" style="background-color:rgb(153, 153, 153);border-bottom-left-radius:10px;border-bottom-right-radius:10px;border-top-left-radius:10px;border-top-right-radius:10px"></div>
+                                </div>
+                                <div class="framer-xxj5iq" data-framer-name="logo">
+                                    <div class="framer-zy37eh" style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;--framer-paragraph-spacing:0px;--extracted-r6o4lv:rgb(255, 255, 255);transform:none" data-framer-component-type="RichTextContainer">
+                                        <p style="--font-selector:R0Y7U2VuLTgwMA==;--framer-font-family:&quot;Sen&quot;, &quot;Sen Placeholder&quot;, sans-serif;--framer-font-size:28px;--framer-font-weight:800;--framer-text-color:var(--extracted-r6o4lv, rgb(255, 255, 255))" class="framer-text">Dan</p>
+                                    </div>
+                                    <div class="framer-1fvx2b4" style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;--extracted-r6o4lv:rgb(0, 120, 189);--framer-paragraph-spacing:0px;transform:none" data-framer-component-type="RichTextContainer">
+                                        <p style="--font-selector:R0Y7U2VuLTgwMA==;--framer-font-family:&quot;Sen&quot;, &quot;Sen Placeholder&quot;, sans-serif;--framer-font-size:28px;--framer-font-weight:800;--framer-text-color:var(--extracted-r6o4lv, rgb(0, 120, 189))" class="framer-text">iel</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+                <div class="framer-xrw3kb hidden-kcbtrq hidden-1trjzul" data-framer-name="Frame 444" name="Frame 444">
+                    <div class="framer-1k9lpo5" data-framer-name="Nara Ko" style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;transform:none" data-framer-component-type="RichTextContainer">
+                        <h5 style="--font-selector:R0Y7U2VuLTgwMA==;--framer-font-family:&quot;Sen&quot;, &quot;Sen Placeholder&quot;, sans-serif;--framer-font-size:32px;--framer-font-weight:800;--framer-text-color:rgb(94, 234, 212)" class="framer-text">Hello world</h5>
+                    </div>
+                    <div class="framer-1df0r3f" data-framer-name="Nara Ko" style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;transform:none" data-framer-component-type="RichTextContainer">
+                        <h5 style="--font-selector:R0Y7U2VuLTgwMA==;--framer-font-family:&quot;Sen&quot;, &quot;Sen Placeholder&quot;, sans-serif;--framer-font-size:25px;--framer-font-weight:800;--framer-text-color:rgb(136, 146, 176)" class="framer-text">Front-end web developer</h5>
+                    </div>
+                    <div class="framer-qv5ymk" data-framer-name="I'm deeply motivated and utterly committed to my work, channeling my focus and energy into every project I undertake, ensuring it receives my full dedication and passion." style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;transform:none" data-framer-component-type="RichTextContainer">
+                        <p style="--font-selector:R0Y7U2VuLXJlZ3VsYXI=;--framer-font-family:&quot;Sen&quot;, &quot;Sen Placeholder&quot;, sans-serif;--framer-text-color:rgb(136, 146, 176)" class="framer-text">Welcome to my journey of projects I've made, all hosted on GitHub.</p>
+                        <p style="--font-selector:R0Y7U2VuLXJlZ3VsYXI=;--framer-font-family:&quot;Sen&quot;, &quot;Sen Placeholder&quot;, sans-serif;--framer-text-color:rgb(136, 146, 176)" class="framer-text">View "My works" for more</p>
+                    </div>
+                    <div class="framer-vppsmf" data-framer-name="Frame 443" name="Frame 443">
+                        <div class="framer-1ik4qmy" data-framer-name="Frame 440" name="Frame 440">
+                            <div class="framer-1yam3cm-container">
+                                <div style="display:contents"></div>
+                            </div>
+                            <div class="framer-15qeyfh" data-framer-name="0738-576-7357" style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;transform:none" data-framer-component-type="RichTextContainer">
+                                <p style="--font-selector:R0Y7U2VuLXJlZ3VsYXI=;--framer-font-family:&quot;Sen&quot;, &quot;Sen Placeholder&quot;, sans-serif;--framer-text-color:rgb(204, 213, 247)" class="framer-text">
+                                    <strong class="framer-text">+234 7025298345</strong>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="framer-nuu7rz" data-framer-name="Frame 441" name="Frame 441">
+                            <div class="framer-19wxuuu-container">
+                                <div style="display:contents"></div>
+                            </div>
+                            <div class="framer-19ho7bm" data-framer-name="narako8077@gmail.com" style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;transform:none" data-framer-component-type="RichTextContainer">
+                                <p style="--font-selector:R0Y7U2VuLXJlZ3VsYXI=;--framer-font-family:&quot;Sen&quot;, &quot;Sen Placeholder&quot;, sans-serif;--framer-text-color:rgb(204, 213, 247)" class="framer-text">
+                                    <strong class="framer-text">Danielishola710@gmail.com</strong>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="framer-18921lw" data-framer-name="Frame 442" name="Frame 442">
+                            <div class="framer-lp6xtj-container">
+                                <div style="display:contents"></div>
+                            </div>
+                            <div class="framer-8i7ba" data-framer-name="www.linkedin.com/in/narako-design" style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;transform:none" data-framer-component-type="RichTextContainer">
+                                <p style="--font-selector:R0Y7U2VuLXJlZ3VsYXI=;--framer-font-family:&quot;Sen&quot;, &quot;Sen Placeholder&quot;, sans-serif;--framer-text-color:rgb(204, 213, 247)" class="framer-text">
+                                    <a class="framer-text framer-styles-preset-12elt5d" data-styles-preset="I5W6zhyhm" href="https://github.com/Daniel999l" rel="noopener">
+                                        <strong class="framer-text">View Github</strong>
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="framer-14s2gj6 hidden-kcbtrq hidden-1trjzul">
+                    <div class="framer-119ntfc hidden-kcbtrq" data-border="true" data-framer-name="Frame 229" name="Frame 229">
+                        <div class="framer-tu6vlx" data-framer-name="Design Work" style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;transform:none" data-framer-component-type="RichTextContainer">
+                            <h2 style="--font-selector:R0Y7U2VuLTgwMA==;--framer-font-family:&quot;Sen&quot;, &quot;Sen Placeholder&quot;, sans-serif;--framer-font-size:38px;--framer-font-weight:800;--framer-text-alignment:center;--framer-text-color:var(--token-371fa1cf-1c87-42dc-b8fe-637dddf56980, rgb(0, 120, 189))" class="framer-text">
+                                <span style="--framer-text-color:rgb(0, 0, 0)" class="framer-text">My </span>
+                                Works
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="framer-dpy15j" data-framer-name="Grid 1" name="Grid 1">
+                        <div class="framer-1xzd0bi">
+                            <div class="framer-q24swb">
+                                <div class="framer-18wpn6l" data-framer-name="Image" name="Image">
+                                    <div class="ssr-variant hidden-fs7c8w">
+                                        <div class="framer-drl2n7" data-framer-name="esxtcrfg" name="esxtcrfg" tabindex="0">
+                                            <div style="position:absolute;border-radius:inherit;top:0;right:0;bottom:0;left:0" data-framer-background-image-wrapper="true">
+                                                <img decoding="async" loading="lazy" sizes="(min-width: 1200px) 617px, (min-width: 810px) and (max-width: 1199px) 617px, (max-width: 809px) 617px" srcset="https://framerusercontent.com/images/wCjCJuHnQ8LnRSytzz8TMPMFtQ.png?scale-down-to=512 512w,https://framerusercontent.com/images/wCjCJuHnQ8LnRSytzz8TMPMFtQ.png?scale-down-to=1024 1024w,https://framerusercontent.com/images/wCjCJuHnQ8LnRSytzz8TMPMFtQ.png 1350w" src="https://framerusercontent.com/images/wCjCJuHnQ8LnRSytzz8TMPMFtQ.png" alt="" style="display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:cover;image-rendering:auto" data-framer-original-sizes="617px">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="ssr-variant hidden-1trjzul hidden-kcbtrq">
+                                        <div class="framer-drl2n7" data-framer-name="esxtcrfg" name="esxtcrfg" tabindex="0">
+                                            <div style="position:absolute;border-radius:inherit;top:0;right:0;bottom:0;left:0" data-framer-background-image-wrapper="true">
+                                                <img decoding="async" sizes="(min-width: 1200px) 617px, (min-width: 810px) and (max-width: 1199px) 617px, (max-width: 809px) 617px" srcset="https://framerusercontent.com/images/wCjCJuHnQ8LnRSytzz8TMPMFtQ.png?scale-down-to=512 512w,https://framerusercontent.com/images/wCjCJuHnQ8LnRSytzz8TMPMFtQ.png?scale-down-to=1024 1024w,https://framerusercontent.com/images/wCjCJuHnQ8LnRSytzz8TMPMFtQ.png 1350w" src="https://framerusercontent.com/images/wCjCJuHnQ8LnRSytzz8TMPMFtQ.png" alt="" style="display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:cover;image-rendering:auto" data-framer-original-sizes="617px">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="framer-1264z4j" data-framer-name="Content" name="Content">
+                                    <div class="framer-xkci8h" style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;transform:none" data-framer-component-type="RichTextContainer">
+                                        <h2 style="--font-selector:R0Y7SW50ZXItNzAw;--framer-font-family:&quot;Inter&quot;, &quot;Inter Placeholder&quot;, sans-serif;--framer-font-size:24px;--framer-font-weight:700;--framer-letter-spacing:-0.8px;--framer-line-height:1.5em;--framer-text-alignment:left;--framer-text-color:rgb(196, 196, 196)" class="framer-text">Tech Trek</h2>
+                                    </div>
+                                    <a class="framer-1m6wniu framer-1lx203q" data-border="true" href="https://daniel999l.github.io/project1/" target="_blank" rel="noopener" tabindex="0">
+                                        <div class="framer-f4vi72" style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;transform:none" data-framer-component-type="RichTextContainer">
+                                            <h1 style="--font-selector:R0Y7SW50ZXItcmVndWxhcg==;--framer-font-family:&quot;Inter&quot;, &quot;Inter Placeholder&quot;, sans-serif;--framer-font-size:19px;--framer-letter-spacing:0px;--framer-text-alignment:center;--framer-text-color:rgb(94, 234, 212)" class="framer-text">Visit Site</h1>
+                                        </div>
+                                    </a>
+                                    <div class="framer-cd43ub" style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;transform:none" data-framer-component-type="RichTextContainer">
+                                        <h3 style="--font-selector:R0Y7SW50ZXItNTAw;--framer-font-family:&quot;Inter&quot;, &quot;Inter Placeholder&quot;, sans-serif;--framer-font-size:20px;--framer-font-weight:500;--framer-letter-spacing:-0.5px;--framer-line-height:1.4em;--framer-text-alignment:left;--framer-text-color:var(--token-1021654d-251a-4750-952b-de3f7005260e, rgb(136, 136, 136))" class="framer-text">Website for a school dedicated to teaching tech related knowledge </h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="framer-1yssnr5">
+                                <div background="[object Object]" class="framer-vtmdfe" data-framer-name="Image" name="Image">
+                                    <div class="framer-1achqek" data-framer-name="$6yugjh" name="$6yugjh" tabindex="0">
+                                        <div style="position:absolute;border-radius:inherit;top:0;right:0;bottom:0;left:0" data-framer-background-image-wrapper="true">
+                                            <img decoding="async" loading="lazy" sizes="(min-width: 1200px) 633px, (min-width: 810px) and (max-width: 1199px) 633px, (max-width: 809px) 633px" srcset="https://framerusercontent.com/images/ErPicm6p6QNk3CpDiTiGzKiO5xM.png?scale-down-to=512 512w,https://framerusercontent.com/images/ErPicm6p6QNk3CpDiTiGzKiO5xM.png?scale-down-to=1024 1024w,https://framerusercontent.com/images/ErPicm6p6QNk3CpDiTiGzKiO5xM.png 1350w" src="https://framerusercontent.com/images/ErPicm6p6QNk3CpDiTiGzKiO5xM.png" alt="" style="display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:cover;image-rendering:auto" data-framer-original-sizes="633px">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="framer-d491gq" data-framer-name="Content" name="Content">
+                                    <div class="framer-xf586j" style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;transform:none" data-framer-component-type="RichTextContainer">
+                                        <h2 style="--font-selector:R0Y7SW50ZXItNzAw;--framer-font-family:&quot;Inter&quot;, &quot;Inter Placeholder&quot;, sans-serif;--framer-font-size:24px;--framer-font-weight:700;--framer-letter-spacing:-0.8px;--framer-line-height:1.5em;--framer-text-alignment:left;--framer-text-color:rgb(196, 196, 196)" class="framer-text">Portfolio (2)</h2>
+                                    </div>
+                                    <div class="framer-19ur3ib" style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;transform:none" data-framer-component-type="RichTextContainer">
+                                        <h3 style="--font-selector:R0Y7SW50ZXItNTAw;--framer-font-family:&quot;Inter&quot;, &quot;Inter Placeholder&quot;, sans-serif;--framer-font-size:20px;--framer-font-weight:500;--framer-letter-spacing:-0.5px;--framer-line-height:1.4em;--framer-text-alignment:left;--framer-text-color:var(--token-1021654d-251a-4750-952b-de3f7005260e, rgb(136, 136, 136))" class="framer-text">A second portfolio website for Ishola Daniel.</h3>
+                                    </div>
+                                    <a class="framer-1qj0u8q framer-1lx203q" data-border="true" href="https://daniel999l.github.io/portfolio/" target="_blank" rel="noopener" tabindex="0">
+                                        <div class="framer-k9y670" style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;transform:none" data-framer-component-type="RichTextContainer">
+                                            <h1 style="--font-selector:R0Y7SW50ZXItcmVndWxhcg==;--framer-font-family:&quot;Inter&quot;, &quot;Inter Placeholder&quot;, sans-serif;--framer-font-size:19px;--framer-letter-spacing:0px;--framer-text-alignment:center;--framer-text-color:rgb(94, 234, 212)" class="framer-text">Visit Site</h1>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="framer-pdclp5">
+                                <div background="[object Object]" class="framer-1ha9qn1" data-framer-name="Image" name="Image">
+                                    <div class="framer-dqxfoy" data-framer-name="SETXDRFCTGVJH" name="SETXDRFCTGVJH" tabindex="0">
+                                        <div style="position:absolute;border-radius:inherit;top:0;right:0;bottom:0;left:0" data-framer-background-image-wrapper="true">
+                                            <img decoding="async" loading="lazy" sizes="(min-width: 1200px) 615.2087px, (min-width: 810px) and (max-width: 1199px) 615.2087px, (max-width: 809px) 615.2087px" srcset="https://framerusercontent.com/images/zhXX7Acfzlq0HTbRhsePANpTVI8.png?scale-down-to=512 512w,https://framerusercontent.com/images/zhXX7Acfzlq0HTbRhsePANpTVI8.png?scale-down-to=1024 1024w,https://framerusercontent.com/images/zhXX7Acfzlq0HTbRhsePANpTVI8.png 1348w" src="https://framerusercontent.com/images/zhXX7Acfzlq0HTbRhsePANpTVI8.png" alt="" style="display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:cover;image-rendering:auto" data-framer-original-sizes="615.2087px">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="framer-1laci1u" data-framer-name="Content" name="Content">
+                                    <div class="framer-13kh9r1" style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;transform:none" data-framer-component-type="RichTextContainer">
+                                        <h2 style="--font-selector:R0Y7SW50ZXItNzAw;--framer-font-family:&quot;Inter&quot;, &quot;Inter Placeholder&quot;, sans-serif;--framer-font-size:24px;--framer-font-weight:700;--framer-letter-spacing:-0.8px;--framer-line-height:1.5em;--framer-text-alignment:left;--framer-text-color:rgb(196, 196, 196)" class="framer-text">Landing Page</h2>
+                                    </div>
+                                    <div class="framer-1x39vsi" style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;transform:none" data-framer-component-type="RichTextContainer">
+                                        <h3 style="--font-selector:R0Y7SW50ZXItNTAw;--framer-font-family:&quot;Inter&quot;, &quot;Inter Placeholder&quot;, sans-serif;--framer-font-size:20px;--framer-font-weight:500;--framer-letter-spacing:-0.5px;--framer-line-height:1.4em;--framer-text-alignment:left;--framer-text-color:var(--token-1021654d-251a-4750-952b-de3f7005260e, rgb(136, 136, 136))" class="framer-text">Commerce landing Page by Daniel.</h3>
+                                    </div>
+                                    <a class="framer-1sg2q0a framer-1lx203q" data-border="true" href="https://daniel999l.github.io/Landingpage2/" target="_blank" rel="noopener" tabindex="0">
+                                        <div class="framer-jy1hck" style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;transform:none" data-framer-component-type="RichTextContainer">
+                                            <h1 style="--font-selector:R0Y7SW50ZXItcmVndWxhcg==;--framer-font-family:&quot;Inter&quot;, &quot;Inter Placeholder&quot;, sans-serif;--framer-font-size:19px;--framer-letter-spacing:0px;--framer-text-alignment:center;--framer-text-color:rgb(94, 234, 212)" class="framer-text">Visit Site</h1>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="framer-1xhrwnz">
+                                <div background="[object Object]" class="framer-1arpcuj" data-framer-name="Image" name="Image">
+                                    <div class="framer-1kz9z0h" data-framer-name="qwertyuj" name="qwertyuj" tabindex="0">
+                                        <div style="position:absolute;border-radius:inherit;top:0;right:0;bottom:0;left:0" data-framer-background-image-wrapper="true">
+                                            <img decoding="async" loading="lazy" sizes="(min-width: 1200px) 620.8828px, (min-width: 810px) and (max-width: 1199px) 620.8828px, (max-width: 809px) 620.8828px" srcset="https://framerusercontent.com/images/4kHyFvQc1ImHbXMMpvnjGEHKZZU.png?scale-down-to=512 512w,https://framerusercontent.com/images/4kHyFvQc1ImHbXMMpvnjGEHKZZU.png?scale-down-to=1024 1024w,https://framerusercontent.com/images/4kHyFvQc1ImHbXMMpvnjGEHKZZU.png 1347w" src="https://framerusercontent.com/images/4kHyFvQc1ImHbXMMpvnjGEHKZZU.png" alt="" style="display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:cover;image-rendering:auto" data-framer-original-sizes="620.8828px">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="framer-p0p4zu" data-framer-name="Content" name="Content">
+                                    <div class="framer-1cktp9h" style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;transform:none" data-framer-component-type="RichTextContainer">
+                                        <h2 style="--font-selector:R0Y7SW50ZXItNzAw;--framer-font-family:&quot;Inter&quot;, &quot;Inter Placeholder&quot;, sans-serif;--framer-font-size:24px;--framer-font-weight:700;--framer-letter-spacing:-0.8px;--framer-line-height:1.5em;--framer-text-alignment:left;--framer-text-color:rgb(196, 196, 196)" class="framer-text">Auto Reply</h2>
+                                    </div>
+                                    <div class="framer-1gg8iek" style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;transform:none" data-framer-component-type="RichTextContainer">
+                                        <h3 style="--font-selector:R0Y7SW50ZXItNTAw;--framer-font-family:&quot;Inter&quot;, &quot;Inter Placeholder&quot;, sans-serif;--framer-font-size:20px;--framer-font-weight:500;--framer-letter-spacing:-0.5px;--framer-line-height:1.4em;--framer-text-alignment:left;--framer-text-color:var(--token-1021654d-251a-4750-952b-de3f7005260e, rgb(136, 136, 136))" class="framer-text">Landing page for a twitter Auto Reply bot.</h3>
+                                    </div>
+                                    <a class="framer-10n5qpg framer-1lx203q" data-border="true" href="https://daniel999l.github.io/Landingpage1/" target="_blank" rel="noopener" tabindex="0">
+                                        <div class="framer-1yl4gs8" style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;transform:none" data-framer-component-type="RichTextContainer">
+                                            <h1 style="--font-selector:R0Y7SW50ZXItcmVndWxhcg==;--framer-font-family:&quot;Inter&quot;, &quot;Inter Placeholder&quot;, sans-serif;--framer-font-size:19px;--framer-letter-spacing:0px;--framer-text-alignment:center;--framer-text-color:rgb(94, 234, 212)" class="framer-text">Visit Site</h1>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="framer-1rp111a">
+                                <div background="[object Object]" class="framer-1v8p2pm" data-framer-name="Image" name="Image">
+                                    <div class="framer-1p9zhyf" data-framer-name="szrxdfcgvbj" name="szrxdfcgvbj" tabindex="0">
+                                        <div style="position:absolute;border-radius:inherit;top:0;right:0;bottom:0;left:0" data-framer-background-image-wrapper="true">
+                                            <img decoding="async" loading="lazy" sizes="(min-width: 1200px) 611px, (min-width: 810px) and (max-width: 1199px) 611px, (max-width: 809px) 611px" srcset="https://framerusercontent.com/images/gBFhZF5PbuEj4LQALwnnwZkDI.png?scale-down-to=512 512w,https://framerusercontent.com/images/gBFhZF5PbuEj4LQALwnnwZkDI.png?scale-down-to=1024 1024w,https://framerusercontent.com/images/gBFhZF5PbuEj4LQALwnnwZkDI.png 1345w" src="https://framerusercontent.com/images/gBFhZF5PbuEj4LQALwnnwZkDI.png" alt="" style="display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:cover;image-rendering:auto" data-framer-original-sizes="611px">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="framer-14zj0ju" data-framer-name="Content" name="Content">
+                                    <div class="framer-14vnjkg" style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;transform:none" data-framer-component-type="RichTextContainer">
+                                        <h2 style="--font-selector:R0Y7SW50ZXItNzAw;--framer-font-family:&quot;Inter&quot;, &quot;Inter Placeholder&quot;, sans-serif;--framer-font-size:24px;--framer-font-weight:700;--framer-letter-spacing:-0.8px;--framer-line-height:1.5em;--framer-text-alignment:left;--framer-text-color:rgb(196, 196, 196)" class="framer-text">Kikoff</h2>
+                                    </div>
+                                    <div class="framer-fu5491" style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;transform:none" data-framer-component-type="RichTextContainer">
+                                        <h3 style="--font-selector:R0Y7SW50ZXItNTAw;--framer-font-family:&quot;Inter&quot;, &quot;Inter Placeholder&quot;, sans-serif;--framer-font-size:20px;--framer-font-weight:500;--framer-letter-spacing:-0.5px;--framer-line-height:1.4em;--framer-text-alignment:left;--framer-text-color:var(--token-1021654d-251a-4750-952b-de3f7005260e, rgb(136, 136, 136))" class="framer-text">Landing Page for kikoff website</h3>
+                                    </div>
+                                    <a class="framer-12qbeky framer-1lx203q" data-border="true" href="https://daniel999l.github.io/project/" target="_blank" rel="noopener" tabindex="0">
+                                        <div class="framer-2ezp6q" style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;transform:none" data-framer-component-type="RichTextContainer">
+                                            <h1 style="--font-selector:R0Y7SW50ZXItcmVndWxhcg==;--framer-font-family:&quot;Inter&quot;, &quot;Inter Placeholder&quot;, sans-serif;--framer-font-size:19px;--framer-letter-spacing:0px;--framer-text-alignment:center;--framer-text-color:rgb(94, 234, 212)" class="framer-text">Visit Site</h1>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="framer-aepwgc">
+                                <div background="[object Object]" class="framer-4jnk6y" data-framer-name="Image" name="Image">
+                                    <div class="framer-1aio2ls" data-framer-name="zesxdrfcgv" name="zesxdrfcgv" tabindex="0">
+                                        <div style="position:absolute;border-radius:inherit;top:0;right:0;bottom:0;left:0" data-framer-background-image-wrapper="true">
+                                            <img decoding="async" loading="lazy" sizes="(min-width: 1200px) 385.1384px, (min-width: 810px) and (max-width: 1199px) 385.1384px, (max-width: 809px) 385.1384px" srcset="https://framerusercontent.com/images/NzfFiXyZO5pXsHY3KBYvsd6g.png?scale-down-to=512 512w,https://framerusercontent.com/images/NzfFiXyZO5pXsHY3KBYvsd6g.png 627w" src="https://framerusercontent.com/images/NzfFiXyZO5pXsHY3KBYvsd6g.png" alt="" style="display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:cover;image-rendering:auto" data-framer-original-sizes="385.1384px">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="framer-816ivk" data-framer-name="Content" name="Content">
+                                    <div class="framer-c5j1tw" style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;transform:none" data-framer-component-type="RichTextContainer">
+                                        <h2 style="--font-selector:R0Y7SW50ZXItNzAw;--framer-font-family:&quot;Inter&quot;, &quot;Inter Placeholder&quot;, sans-serif;--framer-font-size:24px;--framer-font-weight:700;--framer-letter-spacing:-0.8px;--framer-line-height:1.5em;--framer-text-alignment:left;--framer-text-color:rgb(196, 196, 196)" class="framer-text">Daniel Aviation</h2>
+                                    </div>
+                                    <div class="framer-hu97bw" style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;transform:none" data-framer-component-type="RichTextContainer">
+                                        <h3 style="--font-selector:R0Y7SW50ZXItNTAw;--framer-font-family:&quot;Inter&quot;, &quot;Inter Placeholder&quot;, sans-serif;--framer-font-size:20px;--framer-font-weight:500;--framer-letter-spacing:-0.5px;--framer-line-height:1.4em;--framer-text-alignment:left;--framer-text-color:var(--token-1021654d-251a-4750-952b-de3f7005260e, rgb(136, 136, 136))" class="framer-text">Website Dedicated to covering plane crash story.</h3>
+                                    </div>
+                                    <a class="framer-tkn6rs framer-1lx203q" data-border="true" href="https://daniel999l.github.io/Website/" target="_blank" rel="noopener" tabindex="0">
+                                        <div class="framer-187rhf8" style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;transform:none" data-framer-component-type="RichTextContainer">
+                                            <h1 style="--font-selector:R0Y7SW50ZXItcmVndWxhcg==;--framer-font-family:&quot;Inter&quot;, &quot;Inter Placeholder&quot;, sans-serif;--framer-font-size:19px;--framer-letter-spacing:0px;--framer-text-alignment:center;--framer-text-color:rgb(94, 234, 212)" class="framer-text">Visit Site</h1>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="framer-u56wd1 hidden-kcbtrq hidden-1trjzul" data-border="true">
+                    <div class="framer-fgd8i0">
+                        <div class="framer-1n8d59d">
+                            <div class="framer-1sp05r0" data-framer-name="0738-576-7357" style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;transform:none" data-framer-component-type="RichTextContainer">
+                                <p style="--font-selector:R0Y7U2VuLXJlZ3VsYXI=;--framer-font-family:&quot;Sen&quot;, &quot;Sen Placeholder&quot;, sans-serif;--framer-text-color:rgb(204, 213, 247)" class="framer-text">
+                                    <strong class="framer-text">Source</strong>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="framer-u0a8oz">
+                            <div class="framer-2itcx7" data-framer-name="0738-576-7357" style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;transform:none" data-framer-component-type="RichTextContainer">
+                                <p style="--font-selector:R0Y7U2VuLXJlZ3VsYXI=;--framer-font-family:&quot;Sen&quot;, &quot;Sen Placeholder&quot;, sans-serif;--framer-text-color:rgb(204, 213, 247)" class="framer-text">
+                                    <a class="framer-text framer-styles-preset-12elt5d" data-styles-preset="I5W6zhyhm" href="https://www.figma.com" target="_blank" rel="noopener">
+                                        <strong class="framer-text">Figma</strong>
+                                    </a>
+                                </p>
+                            </div>
+                            <div class="framer-103b9dd" data-framer-name="0738-576-7357" style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;transform:none" data-framer-component-type="RichTextContainer">
+                                <p style="--font-selector:R0Y7U2VuLXJlZ3VsYXI=;--framer-font-family:&quot;Sen&quot;, &quot;Sen Placeholder&quot;, sans-serif;--framer-text-color:rgb(204, 213, 247)" class="framer-text">
+                                    <a class="framer-text framer-styles-preset-12elt5d" data-styles-preset="I5W6zhyhm" href="https://landings.dev/" target="_blank" rel="noopener">
+                                        <strong class="framer-text">Landing.dev</strong>
+                                    </a>
+                                </p>
+                            </div>
+                            <div class="framer-u1ffox" data-framer-name="0738-576-7357" style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;transform:none" data-framer-component-type="RichTextContainer">
+                                <p style="--font-selector:R0Y7U2VuLXJlZ3VsYXI=;--framer-font-family:&quot;Sen&quot;, &quot;Sen Placeholder&quot;, sans-serif;--framer-text-color:rgb(204, 213, 247)" class="framer-text">
+                                    <strong class="framer-text">Inspiration </strong>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="framer-lh1ujl-container hidden-fs7c8w" id="OdaRuufVf">
+                    <nav class="framer-kBsmB framer-1spwibj framer-v-1wmov3s" data-framer-name="Variant 4" style="height:100%;width:100%" tabindex="0">
+                        <div class="framer-ssgxgt" data-framer-name="Top">
+                            <div class="framer-19rlqh4" data-border="true" data-framer-name="FB_IMG_1696952660880" style="--border-bottom-width:1px;--border-color:rgb(212, 212, 212);--border-left-width:1px;--border-right-width:1px;--border-style:solid;--border-top-width:1px;border-bottom-left-radius:20px;border-bottom-right-radius:20px;border-top-left-radius:20px;border-top-right-radius:20px;transform:perspective(1200px)">
+                                <div style="position:absolute;border-radius:inherit;top:0;right:0;bottom:0;left:0" data-framer-background-image-wrapper="true">
+                                    <img decoding="async" sizes="(min-width: 1200px) 40px, (min-width: 810px) and (max-width: 1199px) 40px, (max-width: 809px) 40px" srcset="https://framerusercontent.com/images/f1uZk7jMC9tysS53VcG5EsGlJE.jpg?scale-down-to=512 512w,https://framerusercontent.com/images/f1uZk7jMC9tysS53VcG5EsGlJE.jpg 720w" src="https://framerusercontent.com/images/f1uZk7jMC9tysS53VcG5EsGlJE.jpg" alt="" style="display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:cover;image-rendering:auto" data-framer-original-sizes="40px">
+                                </div>
+                            </div>
+                            <div class="framer-1p999ff" style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;--extracted-r6o4lv:rgb(255, 255, 255);--framer-paragraph-spacing:0px;transform:none" data-framer-component-type="RichTextContainer">
+                                <p style="--font-selector:SW50ZXItQm9sZA==;--framer-font-family:&quot;Inter&quot;, &quot;Inter Placeholder&quot;, sans-serif;--framer-font-weight:700;--framer-letter-spacing:-0.2px;--framer-line-height:2em;--framer-text-alignment:center;--framer-text-color:var(--extracted-r6o4lv, rgb(255, 255, 255))" class="framer-text">
+                                    <strong class="framer-text">Daniel</strong>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="framer-i1zsgc" data-framer-name="Links" style="opacity:1">
+                            <div class="framer-x02s4t" style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;--extracted-r6o4lv:rgb(255, 255, 255);--framer-paragraph-spacing:0px;transform:none" data-framer-component-type="RichTextContainer">
+                                <p style="--font-selector:SW50ZXItQm9sZA==;--framer-font-family:&quot;Inter&quot;, &quot;Inter Placeholder&quot;, sans-serif;--framer-font-weight:700;--framer-letter-spacing:-0.2px;--framer-line-height:2em;--framer-text-alignment:center;--framer-text-color:var(--extracted-r6o4lv, rgb(255, 255, 255))" class="framer-text">Home</p>
+                            </div>
+                            <div class="framer-vwfo7m" style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;--extracted-r6o4lv:rgb(119, 119, 119);--framer-paragraph-spacing:0px;transform:none" data-framer-component-type="RichTextContainer" tabindex="0">
+                                <p style="--font-selector:SW50ZXItQm9sZA==;--framer-font-family:&quot;Inter&quot;, &quot;Inter Placeholder&quot;, sans-serif;--framer-font-weight:700;--framer-letter-spacing:-0.2px;--framer-line-height:2em;--framer-text-alignment:center;--framer-text-color:var(--extracted-r6o4lv, rgb(119, 119, 119))" class="framer-text">My works</p>
+                            </div>
+                            <div class="framer-1wtthdd" style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;--extracted-r6o4lv:rgb(119, 119, 119);--framer-paragraph-spacing:0px;transform:none" data-framer-component-type="RichTextContainer" tabindex="0">
+                                <p style="--font-selector:SW50ZXItQm9sZA==;--framer-font-family:&quot;Inter&quot;, &quot;Inter Placeholder&quot;, sans-serif;--framer-font-weight:700;--framer-letter-spacing:-0.2px;--framer-line-height:2em;--framer-text-alignment:center;--framer-text-color:var(--extracted-r6o4lv, rgb(119, 119, 119))" class="framer-text">Contact me</p>
+                            </div>
+                        </div>
+                        <div class="framer-w6j2dm-container">
+                            <div class="framer-iszRP framer-140l3jo framer-v-140l3jo" data-framer-name="Variant 1" style="border-bottom-left-radius:10px;border-bottom-right-radius:10px;border-top-left-radius:10px;border-top-right-radius:10px;height:100%;width:100%" tabindex="0"></div>
+                        </div>
+                    </nav>
+                </div>
+                <div class="framer-erx598 hidden-fs7c8w" data-border="true">
+                    <div class="framer-tzg8o6">
+                        <div class="framer-1doc58b-container">
+                            <div class="ssr-variant hidden-1trjzul">
+                                <div class="framer-qoIXB framer-ku6a7v framer-v-ku6a7v" data-framer-name="Variant 1" style="background-color:rgb(10, 25, 47);width:100%" tabindex="0">
+                                    <div class="framer-17d2ajd">
+                                        <div class="framer-12m4n8">
+                                            <div class="framer-negc47">
+                                                <div class="framer-ro152c" style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;--extracted-gdpscs:rgb(94, 234, 212);--framer-link-text-color:rgb(0, 153, 255);--framer-link-text-decoration:underline;--framer-paragraph-spacing:0px;transform:none" data-framer-component-type="RichTextContainer">
+                                                    <h1 style="--font-selector:R0Y7SW50ZXItcmVndWxhcg==;--framer-font-family:&quot;Inter&quot;, &quot;Inter Placeholder&quot;, sans-serif;--framer-font-size:25px;--framer-letter-spacing:0px;--framer-text-alignment:center;--framer-text-color:var(--extracted-gdpscs, rgb(94, 234, 212))" class="framer-text">Hi, My name is</h1>
+                                                </div>
+                                            </div>
+                                            <div class="framer-1ubszks" style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;--extracted-r6o4lv:rgb(204, 213, 247);--framer-paragraph-spacing:0px;opacity:0.8;transform:none" data-framer-component-type="RichTextContainer">
+                                                <p style="--font-selector:R0Y7SW50ZXItNTAw;--framer-font-family:&quot;Inter&quot;, &quot;Inter Placeholder&quot;, sans-serif;--framer-font-size:90px;--framer-font-weight:500;--framer-text-color:var(--extracted-r6o4lv, rgb(204, 213, 247))" class="framer-text">
+                                                    <strong class="framer-text">Ishola Daniel.</strong>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="framer-1cyqr79">
+                                            <div class="framer-592xcz" style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;--extracted-r6o4lv:rgb(136, 146, 176);--framer-paragraph-spacing:0px;opacity:0.8;transform:none" data-framer-component-type="RichTextContainer">
+                                                <p style="--font-selector:R0Y7SW50ZXItcmVndWxhcg==;--framer-font-family:&quot;Inter&quot;, &quot;Inter Placeholder&quot;, sans-serif;--framer-font-size:60px;--framer-text-color:var(--extracted-r6o4lv, rgb(136, 146, 176))" class="framer-text">
+                                                    <strong class="framer-text">Front-end web developer.</strong>
+                                                </p>
+                                            </div>
+                                            <div class="framer-14mo40u">
+                                                <div class="framer-161alzw" style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;--extracted-1of0zx5:rgb(136, 146, 176);--framer-link-text-color:rgb(0, 153, 255);--framer-link-text-decoration:underline;transform:translateY(-50%)" data-framer-component-type="RichTextContainer">
+                                                    <h2 style="--framer-font-size:28px;--framer-line-height:1.4em;--framer-text-color:var(--extracted-1of0zx5, rgb(136, 146, 176))" class="framer-text">
+                                                        Welcome to my journey of projects I've made, all hosted on GitHub.<br class="framer-text">Click 'Get Started' to continue and click 'Learn More' to visit my GitHub.
+                                                    </h2>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="framer-3ashid">
+                                            <div class="framer-1pqe6sn" data-border="true" style="--border-bottom-width:1px;--border-color:rgb(94, 234, 212);--border-left-width:1px;--border-right-width:1px;--border-style:solid;--border-top-width:1px" tabindex="0">
+                                                <div class="framer-g1cvo0" style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;--extracted-gdpscs:rgb(94, 234, 212);--framer-link-text-color:rgb(0, 153, 255);--framer-link-text-decoration:underline;--framer-paragraph-spacing:0px;transform:none" data-framer-component-type="RichTextContainer">
+                                                    <h1 style="--font-selector:R0Y7SW50ZXItcmVndWxhcg==;--framer-font-family:&quot;Inter&quot;, &quot;Inter Placeholder&quot;, sans-serif;--framer-font-size:19px;--framer-letter-spacing:0px;--framer-text-alignment:center;--framer-text-color:var(--extracted-gdpscs, rgb(94, 234, 212))" class="framer-text">Get started </h1>
+                                                </div>
+                                            </div>
+                                            <a class="framer-2p1bjq framer-1yuhcbp" data-border="true" style="--border-bottom-width:1px;--border-color:rgb(94, 234, 212);--border-left-width:1px;--border-right-width:1px;--border-style:solid;--border-top-width:1px" href="https://github.com/Daniel999l" target="_blank" rel="noopener" tabindex="0">
+                                                <div class="framer-tvlmas" style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;--extracted-gdpscs:rgb(94, 234, 212);--framer-link-text-color:rgb(0, 153, 255);--framer-link-text-decoration:underline;--framer-paragraph-spacing:0px;transform:none" data-framer-component-type="RichTextContainer">
+                                                    <h1 style="--font-selector:R0Y7SW50ZXItcmVndWxhcg==;--framer-font-family:&quot;Inter&quot;, &quot;Inter Placeholder&quot;, sans-serif;--framer-font-size:19px;--framer-letter-spacing:0px;--framer-text-alignment:center;--framer-text-color:var(--extracted-gdpscs, rgb(94, 234, 212))" class="framer-text">Learn more</h1>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="ssr-variant hidden-fs7c8w hidden-kcbtrq">
+                                <div class="framer-qoIXB framer-ku6a7v framer-v-kdh0ks" data-framer-name="Variant 2" style="background-color:rgb(10, 25, 47);width:100%" tabindex="0">
+                                    <div class="framer-17d2ajd">
+                                        <div class="framer-12m4n8">
+                                            <div class="framer-negc47">
+                                                <div class="framer-ro152c" style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;--extracted-gdpscs:rgb(94, 234, 212);--framer-link-text-color:rgb(0, 153, 255);--framer-link-text-decoration:underline;--framer-paragraph-spacing:0px;transform:none" data-framer-component-type="RichTextContainer">
+                                                    <h1 style="--font-selector:R0Y7SW50ZXItcmVndWxhcg==;--framer-font-family:&quot;Inter&quot;, &quot;Inter Placeholder&quot;, sans-serif;--framer-font-size:25px;--framer-letter-spacing:0px;--framer-text-alignment:center;--framer-text-color:var(--extracted-gdpscs, rgb(94, 234, 212))" class="framer-text">Hi, My name is</h1>
+                                                </div>
+                                            </div>
+                                            <div class="framer-1ubszks" style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;--extracted-r6o4lv:rgb(204, 213, 247);--framer-paragraph-spacing:0px;opacity:0.8;transform:none" data-framer-component-type="RichTextContainer">
+                                                <p style="--font-selector:R0Y7SW50ZXItNTAw;--framer-font-family:&quot;Inter&quot;, &quot;Inter Placeholder&quot;, sans-serif;--framer-font-size:80px;--framer-font-weight:500;--framer-text-color:var(--extracted-r6o4lv, rgb(204, 213, 247))" class="framer-text">
+                                                    <strong class="framer-text">Ishola Daniel.</strong>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="framer-1cyqr79">
+                                            <div class="framer-592xcz" style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;--extracted-r6o4lv:rgb(136, 146, 176);--framer-paragraph-spacing:0px;opacity:0.8;transform:none" data-framer-component-type="RichTextContainer">
+                                                <p style="--font-selector:R0Y7SW50ZXItcmVndWxhcg==;--framer-font-family:&quot;Inter&quot;, &quot;Inter Placeholder&quot;, sans-serif;--framer-font-size:50px;--framer-text-color:var(--extracted-r6o4lv, rgb(136, 146, 176))" class="framer-text">
+                                                    <strong class="framer-text">Front-end web developer.</strong>
+                                                </p>
+                                            </div>
+                                            <div class="framer-14mo40u">
+                                                <div class="framer-161alzw" style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;--extracted-1of0zx5:rgb(136, 146, 176);--framer-link-text-color:rgb(0, 153, 255);--framer-link-text-decoration:underline;transform:translateY(-50%)" data-framer-component-type="RichTextContainer">
+                                                    <h2 style="--framer-font-size:20px;--framer-line-height:1.4em;--framer-text-color:var(--extracted-1of0zx5, rgb(136, 146, 176))" class="framer-text">
+                                                        Welcome to my journey of projects I've made, all hosted on GitHub.<br class="framer-text">Click 'Get Started' to continue and click 'Learn More' to visit my GitHub.
+                                                    </h2>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="framer-3ashid">
+                                            <div class="framer-1pqe6sn" data-border="true" style="--border-bottom-width:1px;--border-color:rgb(94, 234, 212);--border-left-width:1px;--border-right-width:1px;--border-style:solid;--border-top-width:1px" tabindex="0">
+                                                <div class="framer-g1cvo0" style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;--extracted-gdpscs:rgb(94, 234, 212);--framer-link-text-color:rgb(0, 153, 255);--framer-link-text-decoration:underline;--framer-paragraph-spacing:0px;transform:none" data-framer-component-type="RichTextContainer">
+                                                    <h1 style="--font-selector:R0Y7SW50ZXItcmVndWxhcg==;--framer-font-family:&quot;Inter&quot;, &quot;Inter Placeholder&quot;, sans-serif;--framer-font-size:19px;--framer-letter-spacing:0px;--framer-text-alignment:center;--framer-text-color:var(--extracted-gdpscs, rgb(94, 234, 212))" class="framer-text">Get started </h1>
+                                                </div>
+                                            </div>
+                                            <a class="framer-2p1bjq framer-1yuhcbp" data-border="true" style="--border-bottom-width:1px;--border-color:rgb(94, 234, 212);--border-left-width:1px;--border-right-width:1px;--border-style:solid;--border-top-width:1px" href="https://github.com/Daniel999l" target="_blank" rel="noopener" tabindex="0">
+                                                <div class="framer-tvlmas" style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;--extracted-gdpscs:rgb(94, 234, 212);--framer-link-text-color:rgb(0, 153, 255);--framer-link-text-decoration:underline;--framer-paragraph-spacing:0px;transform:none" data-framer-component-type="RichTextContainer">
+                                                    <h1 style="--font-selector:R0Y7SW50ZXItcmVndWxhcg==;--framer-font-family:&quot;Inter&quot;, &quot;Inter Placeholder&quot;, sans-serif;--framer-font-size:19px;--framer-letter-spacing:0px;--framer-text-alignment:center;--framer-text-color:var(--extracted-gdpscs, rgb(94, 234, 212))" class="framer-text">Learn more</h1>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="framer-VOGci framer-7Byw3" id="overlay"></div>
+            <!--/$-->
+        </div>
+        <script>
+            performance.mark("framer-rewrite-breakpoints-start");
+            const removeHiddenBreakpointLayers = function ie(e) {
+                function t() {
+                    for (let {hash: r, mediaQuery: i} of e) {
+                        if (!i)
+                            continue;
+                        if (window.matchMedia(i).matches)
+                            return r
+                    }
+                    return e[0]?.hash
+                }
+                let o = t();
+                if (o)
+                    for (let r of document.querySelectorAll(".hidden-" + o))
+                        r.parentNode?.removeChild(r);
+                for (let r of document.querySelectorAll(".ssr-variant")) {
+                    for (; r.firstChild; )
+                        r.parentNode?.insertBefore(r.firstChild, r);
+                    r.parentNode?.removeChild(r)
+                }
+                for (let r of document.querySelectorAll("[data-framer-original-sizes]")) {
+                    let i = r.getAttribute("data-framer-original-sizes");
+                    i === "" ? r.removeAttribute("sizes") : r.setAttribute("sizes", i),
+                    r.removeAttribute("data-framer-original-sizes")
+                }
+            };
+            removeHiddenBreakpointLayers([{
+                "hash": "kcbtrq",
+                "mediaQuery": "(min-width: 1200px)"
+            }, {
+                "hash": "1trjzul",
+                "mediaQuery": "(min-width: 810px) and (max-width: 1199px)"
+            }, {
+                "hash": "fs7c8w",
+                "mediaQuery": "(max-width: 809px)"
+            }]);
+            performance.mark("framer-rewrite-breakpoints-end");
+            performance.measure("framer-rewrite-breakpoints", "framer-rewrite-breakpoints-start", "framer-rewrite-breakpoints-end")
+        </script>
+        <div id="svg-templates" style="position: absolute; overflow: hidden; top: 0; left: 0; width: 0; height: 0"></div>
+        <script data-framer-appear-animation="no-preference"></script>
+        <script type="module" data-framer-bundle="" src="https://framerusercontent.com/sites/33dZi2iVhvS34VFcND7YCw/preview_script0.T5NODCS6.mjs"></script>
+        <!-- End of bodyEnd -->
+    </body>
+</html>
